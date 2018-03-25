@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xuduo/lab/RM/ArmorDetect/serialapp.h
+boost/thread/mutex.hpp
+-
+string
+-
+serialbase.h
+/home/xuduo/lab/RM/ArmorDetect/serialbase.h
+
+/home/xuduo/lab/RM/ArmorDetect/serialbase.h
+boost/asio.hpp
+-
+
+/home/xuduo/lab/RM/testSerialSend/testSerialSend.cpp
+../ArmorDetect/serialapp.h
+/home/xuduo/lab/RM/ArmorDetect/serialapp.h
+

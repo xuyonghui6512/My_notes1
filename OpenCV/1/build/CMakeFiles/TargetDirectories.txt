@@ -1,0 +1,3 @@
+/home/xuxuxu/b/My_notes1/OpenCV/1/build/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/OpenCV/1/build/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/OpenCV/1/build/CMakeFiles/demo1.dir
