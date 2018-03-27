@@ -3,6 +3,7 @@
 
 test/CMakeFiles/run_test.dir/run_test.cpp.o
  ../include/common_include.h
+ ../include/find_and_pick.h
  ../include/my_bar_code.h
  /home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp
  /usr/local/include/opencv/cxcore.h
@@ -128,3 +129,13 @@ test/CMakeFiles/run_test.dir/run_test.cpp.o
  /usr/local/include/opencv2/xfeatures2d.hpp
  /usr/local/include/opencv2/xfeatures2d/cuda.hpp
  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
+ /usr/local/include/zbar.h
+ /usr/local/include/zbar/Decoder.h
+ /usr/local/include/zbar/Exception.h
+ /usr/local/include/zbar/Image.h
+ /usr/local/include/zbar/ImageScanner.h
+ /usr/local/include/zbar/Processor.h
+ /usr/local/include/zbar/Scanner.h
+ /usr/local/include/zbar/Symbol.h
+ /usr/local/include/zbar/Video.h
+ /usr/local/include/zbar/Window.h

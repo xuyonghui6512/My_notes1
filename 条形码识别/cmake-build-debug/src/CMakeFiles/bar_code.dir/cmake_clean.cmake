@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
+  "CMakeFiles/bar_code.dir/find_and_pick.cpp.o"
   "../../lib/libbar_code.pdb"
   "../../lib/libbar_code.so"
 )

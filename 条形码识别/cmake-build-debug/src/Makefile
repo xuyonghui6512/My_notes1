@@ -125,6 +125,33 @@ bar_code/fast:
 	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/build
 .PHONY : bar_code/fast
 
+find_and_pick.o: find_and_pick.cpp.o
+
+.PHONY : find_and_pick.o
+
+# target to build an object file
+find_and_pick.cpp.o:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o
+.PHONY : find_and_pick.cpp.o
+
+find_and_pick.i: find_and_pick.cpp.i
+
+.PHONY : find_and_pick.i
+
+# target to preprocess a source file
+find_and_pick.cpp.i:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.i
+.PHONY : find_and_pick.cpp.i
+
+find_and_pick.s: find_and_pick.cpp.s
+
+.PHONY : find_and_pick.s
+
+# target to generate assembly for a file
+find_and_pick.cpp.s:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.s
+.PHONY : find_and_pick.cpp.s
+
 my_bar_code.o: my_bar_code.cpp.o
 
 .PHONY : my_bar_code.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bar_code"
+	@echo "... find_and_pick.o"
+	@echo "... find_and_pick.i"
+	@echo "... find_and_pick.s"
 	@echo "... my_bar_code.o"
 	@echo "... my_bar_code.i"
 	@echo "... my_bar_code.s"
