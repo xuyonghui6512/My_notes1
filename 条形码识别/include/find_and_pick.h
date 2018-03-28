@@ -20,6 +20,8 @@ namespace mybar_code
       CodeDetect(){}
       ~CodeDetect(){}
       static void Zbar_It(Mat& _img,Bar_code& _bar_code);
+      static void Judge_QRCode(Mat& img,Bar_code& _bar_code);
+      static Point Center_cal(vector<vector<Point> > contours,int i);
     };
 }
 #endif //FIND_AND_PICK_H

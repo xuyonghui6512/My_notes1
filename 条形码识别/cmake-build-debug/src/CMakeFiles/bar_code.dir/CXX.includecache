@@ -35,6 +35,8 @@ common_include.h
 ../include/common_include.h
 
 /home/xuxuxu/b/My_notes1/条形码识别/src/find_and_pick.cpp
+my_bar_code.h
+/home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.h
 find_and_pick.h
 /home/xuxuxu/b/My_notes1/条形码识别/src/find_and_pick.h
 opencv2/opencv.hpp
