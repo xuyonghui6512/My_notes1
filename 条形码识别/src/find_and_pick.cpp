@@ -13,8 +13,11 @@ namespace mybar_code{
         stringstream ss;//用于记录信息
         scanner.set_config(ZBAR_NONE, ZBAR_CFG_ENABLE, 1);
         Mat image = img.clone();
+
         Mat imageGray;
         cvtColor(image,imageGray,CV_RGB2GRAY);
+        imshow("jj",image);
+        waitKey(0);
         int width = imageGray.cols;
         int height = imageGray.rows;
         uchar *raw = (uchar *)imageGray.data;
@@ -47,7 +50,7 @@ namespace mybar_code{
             ss<<"条码："<<"  "<<symbol->get_data()<<endl;
         }
         _bar_code.code_info=ss.str();
-        imshow("Source Image",imageGray);
+        //imshow("Source Image",imageGray);
         waitKey();
         imageZbar.set_data(nullptr,0);
     }
@@ -131,6 +134,7 @@ namespace mybar_code{
            line(src_all, point[1], point[2], Scalar(0, 0, 255), 2);
            line(src_all, point[0], point[2], Scalar(0, 0, 255), 2);
            _bar_code.m_type=mybar_code::Bar_code::two_dim_code;
+           cout<<"这是二维码"<<endl;
        }
        else {
            int nn = 0;//记录次数
@@ -153,6 +157,7 @@ namespace mybar_code{
                if (nn == 3) {
                    contours3.push_back(contours2[i]);
                    _bar_code.m_type=mybar_code::Bar_code::two_dim_code;
+                   cout<<"这是二维码"<<endl;
                }
                if(nn>3) ////////注意将来要在这里处理大于3的情况！！！！！
                {
@@ -181,4 +186,81 @@ namespace mybar_code{
        waitKey(0);
    }
 
+
+
+    //寻找一副图中的二维码并旋转矫正
+    Mat CodeDetect::Find_Bar_Code_And_Rotate(Mat &_img)
+    {
+        Mat srcImg=_img;
+        Mat srcGray;
+        cvtColor(srcImg,srcGray,CV_RGB2GRAY);
+        Mat grad_x,grad_y;
+        Sobel(srcGray,grad_x,CV_32F,1,0,-1);//求x方向梯度
+        Sobel(srcGray,grad_y,CV_32F,0,1,-1);//y方向梯度
+        Mat gradient;
+        subtract(grad_x,grad_y,gradient);
+
+        convertScaleAbs(gradient,gradient);//得到包含高水平梯度和低竖直梯度的图像区域
+        Mat blur_img;
+        blur(gradient,blur_img,Size(9,9));//模糊
+        Mat threshold_img;
+        threshold(blur_img,threshold_img,210,255,CV_THRESH_BINARY);
+        Mat kernel;
+        kernel=getStructuringElement(MORPH_RECT,Size(21,7));
+        Mat close_img;
+        morphologyEx(threshold_img,close_img,MORPH_CLOSE,kernel);//闭运算
+        Mat element=getStructuringElement(MORPH_RECT,Size(11,11));//得到自定义核
+        erode(close_img,close_img,element);
+        Mat element1=getStructuringElement(MORPH_RECT,Size(15,15));//得到自定义核
+        dilate(close_img,close_img,element1);
+        std::vector<std::vector<Point> > contours;
+        std::vector<Vec4i> hierarchy;
+        findContours(close_img,contours,hierarchy,RETR_EXTERNAL,CHAIN_APPROX_SIMPLE);//得到轮廓
+        /*找到最大轮廓*/
+        std::vector<Point> max_Contour;
+        for(int i=0;i<contours.size();i++)
+        {
+            if(max_Contour.size()<contours[i].size())
+                max_Contour=contours[i];
+        }
+        if(max_Contour.size()<10)
+        {
+            std::cout<<"这不是条形码"<<std::endl;
+        }
+        else {
+            RotatedRect bar_code_rect = minAreaRect(max_Contour);//最大轮廓的最小外接矩形
+            Point2f rect[4];//用来取外接矩形的四个定点
+            Point2f rectlftop,rectrhtop,rectlfub,rectrhub;
+            circle(srcImg, Point(bar_code_rect.center.x,
+                                 bar_code_rect.center.y), 5,
+                   Scalar(0, 255, 0), -1, 8);
+            bar_code_rect.points(rect);  //把最小外接矩形四个端点复制给rect数组
+
+//            for (int j = 0; j < 4; j++) {
+//                line(srcImg, rect[j], rect[(j + 1) % 4], Scalar(0, 0, 255), 2, 8);  //绘制最小外接矩形每条边
+//            }
+            for(int i=0;i<4;i++)
+            {
+                if(rect[i].x<bar_code_rect.center.x&&rect[i].y<bar_code_rect.center.y)
+                    rectlftop=rect[i];
+                if(rect[i].x>bar_code_rect.center.x&&rect[i].y<bar_code_rect.center.y)
+                    rectrhtop=rect[i];
+                if(rect[i].x<bar_code_rect.center.x&&rect[i].y>bar_code_rect.center.y)
+                    rectlfub=rect[i];
+                if(rect[i].x>bar_code_rect.center.x&&rect[i].y>bar_code_rect.center.y)
+                    rectrhub=rect[i];
+            }
+            imshow("原图", srcGray);
+            imshow("结果图", srcImg);
+//            Rect ROI;
+//            ROI.x=rectlftop.x;
+//            ROI.y=rectlftop.y;
+//            ROI.width=abs(rectrhtop.x-rectlftop.x);
+//            ROI.height=abs(rectrhub.y-rectrhtop.y);
+            return srcImg(bar_code_rect.boundingRect());
+        }
+    }
 }
+
+
+
