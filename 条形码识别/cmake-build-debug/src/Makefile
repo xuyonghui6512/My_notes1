@@ -152,6 +152,33 @@ find_and_pick.cpp.s:
 	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.s
 .PHONY : find_and_pick.cpp.s
 
+image_handle.o: image_handle.cpp.o
+
+.PHONY : image_handle.o
+
+# target to build an object file
+image_handle.cpp.o:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.o
+.PHONY : image_handle.cpp.o
+
+image_handle.i: image_handle.cpp.i
+
+.PHONY : image_handle.i
+
+# target to preprocess a source file
+image_handle.cpp.i:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.i
+.PHONY : image_handle.cpp.i
+
+image_handle.s: image_handle.cpp.s
+
+.PHONY : image_handle.s
+
+# target to generate assembly for a file
+image_handle.cpp.s:
+	cd /home/xuxuxu/b/My_notes1/条形码识别/cmake-build-debug && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.s
+.PHONY : image_handle.cpp.s
+
 my_bar_code.o: my_bar_code.cpp.o
 
 .PHONY : my_bar_code.o
@@ -191,6 +218,9 @@ help:
 	@echo "... find_and_pick.o"
 	@echo "... find_and_pick.i"
 	@echo "... find_and_pick.s"
+	@echo "... image_handle.o"
+	@echo "... image_handle.i"
+	@echo "... image_handle.s"
 	@echo "... my_bar_code.o"
 	@echo "... my_bar_code.i"
 	@echo "... my_bar_code.s"

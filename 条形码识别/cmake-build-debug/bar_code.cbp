@@ -141,6 +141,9 @@
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别/src/find_and_pick.cpp">
 			<Option target="bar_code"/>
 		</Unit>
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别/src/image_handle.cpp">
+			<Option target="bar_code"/>
+		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.cpp">
 			<Option target="bar_code"/>
 		</Unit>

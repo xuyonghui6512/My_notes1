@@ -30,6 +30,10 @@ my_bar_code.h
 zbar.h
 -
 
+../include/image_handle.h
+common_include.h
+../include/common_include.h
+
 ../include/my_bar_code.h
 common_include.h
 ../include/common_include.h
@@ -41,6 +45,12 @@ find_and_pick.h
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.h
 opencv2/opencv.hpp
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/opencv2/opencv.hpp
+
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp
+image_handle.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.h
+opencv2/opencv.hpp
+-
 
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp
 my_bar_code.h

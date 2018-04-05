@@ -11,13 +11,11 @@ namespace mybar_code{
     {
         ImageScanner scanner;
         stringstream ss;//用于记录信息
-        scanner.set_config(ZBAR_NONE, ZBAR_CFG_ENABLE, 1);
+        scanner.set_config(ZBAR_NONE, ZBAR_CFG_ENABLE, 1);//算法初始化
         Mat image = img.clone();
 
         Mat imageGray;
         cvtColor(image,imageGray,CV_RGB2GRAY);
-        imshow("jj",image);
-        waitKey(0);
         int width = imageGray.cols;
         int height = imageGray.rows;
         uchar *raw = (uchar *)imageGray.data;
@@ -27,11 +25,15 @@ namespace mybar_code{
         if(imageZbar.symbol_begin()==imageZbar.symbol_end())
         {
             threshold(imageGray,imageGray,200,255,1);
+//            Mat element = getStructuringElement(MORPH_RECT, Size(3, 3));
+//            morphologyEx(imageGray, imageGray, MORPH_OPEN, element);
             raw = (uchar *)imageGray.data;
             Image imageZbar(width, height, "Y800", raw, width * height);
             scanner.scan(imageZbar); //扫描条码
             Image::SymbolIterator symbol = imageZbar.symbol_begin();
             if(imageZbar.symbol_begin()==imageZbar.symbol_end()) {
+                imshow("失败的图片",imageGray);
+                waitKey();
                 cout << "查询条码失败，请检查图片！" << endl;
             }
             for(;symbol != imageZbar.symbol_end();++symbol)
@@ -50,8 +52,7 @@ namespace mybar_code{
             ss<<"条码："<<"  "<<symbol->get_data()<<endl;
         }
         _bar_code.code_info=ss.str();
-        //imshow("Source Image",imageGray);
-        waitKey();
+
         imageZbar.set_data(nullptr,0);
     }
     //找到所提取轮廓的中心点
@@ -211,7 +212,7 @@ namespace mybar_code{
         morphologyEx(threshold_img,close_img,MORPH_CLOSE,kernel);//闭运算
         Mat element=getStructuringElement(MORPH_RECT,Size(11,11));//得到自定义核
         erode(close_img,close_img,element);
-        Mat element1=getStructuringElement(MORPH_RECT,Size(15,15));//得到自定义核
+        Mat element1=getStructuringElement(MORPH_RECT,Size(13,13));//得到自定义核
         dilate(close_img,close_img,element1);
         std::vector<std::vector<Point> > contours;
         std::vector<Vec4i> hierarchy;
@@ -231,7 +232,7 @@ namespace mybar_code{
             RotatedRect bar_code_rect = minAreaRect(max_Contour);//最大轮廓的最小外接矩形
             Point2f rect[4];//用来取外接矩形的四个定点
             Point2f rectlftop,rectrhtop,rectlfub,rectrhub;
-            circle(srcImg, Point(bar_code_rect.center.x,
+            circle(srcGray, Point(bar_code_rect.center.x,
                                  bar_code_rect.center.y), 5,
                    Scalar(0, 255, 0), -1, 8);
             bar_code_rect.points(rect);  //把最小外接矩形四个端点复制给rect数组

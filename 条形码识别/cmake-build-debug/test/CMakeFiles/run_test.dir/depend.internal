@@ -4,6 +4,7 @@
 test/CMakeFiles/run_test.dir/run_test.cpp.o
  ../include/common_include.h
  ../include/find_and_pick.h
+ ../include/image_handle.h
  ../include/my_bar_code.h
  /home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp
  /usr/local/include/opencv/cxcore.h

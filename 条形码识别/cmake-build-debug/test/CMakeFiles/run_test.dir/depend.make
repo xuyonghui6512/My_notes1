@@ -3,6 +3,7 @@
 
 test/CMakeFiles/run_test.dir/run_test.cpp.o: ../include/common_include.h
 test/CMakeFiles/run_test.dir/run_test.cpp.o: ../include/find_and_pick.h
+test/CMakeFiles/run_test.dir/run_test.cpp.o: ../include/image_handle.h
 test/CMakeFiles/run_test.dir/run_test.cpp.o: ../include/my_bar_code.h
 test/CMakeFiles/run_test.dir/run_test.cpp.o: ../test/run_test.cpp
 test/CMakeFiles/run_test.dir/run_test.cpp.o: /usr/local/include/opencv/cxcore.h

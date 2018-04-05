@@ -141,10 +141,13 @@
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp">
 			<Option target="bar_code"/>
 		</Unit>
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp">
+			<Option target="bar_code"/>
+		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp">
 			<Option target="bar_code"/>
 		</Unit>
-		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/run_test.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp">
 			<Option target="run_test"/>
 		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/CMakeLists.txt">

@@ -1,0 +1,5 @@
+/home/xuxuxu/b/My_notes1/程序测试/build/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/程序测试/build/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/程序测试/build/bin/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/程序测试/build/bin/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/程序测试/build/bin/CMakeFiles/SHOW.dir

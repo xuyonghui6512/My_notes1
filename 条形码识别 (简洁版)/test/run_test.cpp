@@ -10,9 +10,9 @@ int main ( int argc, char** argv )
     mybar_code::Bar_code a;
     Mat img=imread("/home/xuxuxu/b/二维码测试图片/17.jpg");
     //mybar_code::CodeDetect::Judge_QRCode(img,a);
-    Mat img11;
-    img11=mybar_code::CodeDetect::Find_Bar_Code_And_Rotate(img);
-    bool key=mybar_code::CodeDetect::Zbar_It(img11,a);
+//    Mat img11;
+//    img11=mybar_code::CodeDetect::Find_Bar_Code_And_Rotate(img);
+    bool key=mybar_code::CodeDetect::Zbar_It(img,a);
     if(key) {
         a.bar_code_show(a);
     }
