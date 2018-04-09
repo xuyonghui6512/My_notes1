@@ -8,7 +8,7 @@ int main ( int argc, char** argv )
 {
     clock_t start_time = clock();
     mybar_code::Bar_code a;
-    Mat img=imread("/home/xuxuxu/b/二维码测试图片/17.jpg");
+    Mat img=imread("/home/xuxuxu/b/二维码测试图片/18.jpg");
     //mybar_code::CodeDetect::Judge_QRCode(img,a);
 //    Mat img11;
 //    img11=mybar_code::CodeDetect::Find_Bar_Code_And_Rotate(img);

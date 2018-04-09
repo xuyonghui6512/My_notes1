@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuxuxu/b/My_notes1/条形码识别
+CMAKE_SOURCE_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuxuxu/b/My_notes1/条形码识别/build
+CMAKE_BINARY_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build"
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/bar_code.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/bar_code.dir/flags.make
 
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o: src/CMakeFiles/bar_code.dir/flags.make
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o: ../src/my_bar_code.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/src && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bar_code.dir/my_bar_code.cpp.o -c /home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bar_code.dir/my_bar_code.cpp.o -c "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp"
 
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bar_code.dir/my_bar_code.cpp.i"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.cpp > CMakeFiles/bar_code.dir/my_bar_code.cpp.i
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp" > CMakeFiles/bar_code.dir/my_bar_code.cpp.i
 
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bar_code.dir/my_bar_code.cpp.s"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.cpp -o CMakeFiles/bar_code.dir/my_bar_code.cpp.s
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp" -o CMakeFiles/bar_code.dir/my_bar_code.cpp.s
 
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o.requires:
 
@@ -81,14 +81,66 @@ src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o.provides: src/CMakeFiles/bar_code.
 src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o.provides.build: src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o
 
 
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o: src/CMakeFiles/bar_code.dir/flags.make
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o: ../src/find_and_pick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bar_code.dir/find_and_pick.cpp.o -c "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp"
+
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bar_code.dir/find_and_pick.cpp.i"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp" > CMakeFiles/bar_code.dir/find_and_pick.cpp.i
+
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bar_code.dir/find_and_pick.cpp.s"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp" -o CMakeFiles/bar_code.dir/find_and_pick.cpp.s
+
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.requires
+
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.provides: src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.provides.build
+.PHONY : src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.provides
+
+src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.provides.build: src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o
+
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.o: src/CMakeFiles/bar_code.dir/flags.make
+src/CMakeFiles/bar_code.dir/image_handle.cpp.o: ../src/image_handle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/bar_code.dir/image_handle.cpp.o"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bar_code.dir/image_handle.cpp.o -c "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp"
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bar_code.dir/image_handle.cpp.i"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp" > CMakeFiles/bar_code.dir/image_handle.cpp.i
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bar_code.dir/image_handle.cpp.s"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp" -o CMakeFiles/bar_code.dir/image_handle.cpp.s
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/bar_code.dir/image_handle.cpp.o.requires
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.o.provides: src/CMakeFiles/bar_code.dir/image_handle.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.o.provides.build
+.PHONY : src/CMakeFiles/bar_code.dir/image_handle.cpp.o.provides
+
+src/CMakeFiles/bar_code.dir/image_handle.cpp.o.provides.build: src/CMakeFiles/bar_code.dir/image_handle.cpp.o
+
+
 # Object files for target bar_code
 bar_code_OBJECTS = \
-"CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
+"CMakeFiles/bar_code.dir/my_bar_code.cpp.o" \
+"CMakeFiles/bar_code.dir/find_and_pick.cpp.o" \
+"CMakeFiles/bar_code.dir/image_handle.cpp.o"
 
 # External object files for target bar_code
 bar_code_EXTERNAL_OBJECTS =
 
 ../lib/libbar_code.so: src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o
+../lib/libbar_code.so: src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o
+../lib/libbar_code.so: src/CMakeFiles/bar_code.dir/image_handle.cpp.o
 ../lib/libbar_code.so: src/CMakeFiles/bar_code.dir/build.make
 ../lib/libbar_code.so: /usr/local/lib/libopencv_stitching.so.3.2.0
 ../lib/libbar_code.so: /usr/local/lib/libopencv_superres.so.3.2.0
@@ -133,8 +185,8 @@ bar_code_EXTERNAL_OBJECTS =
 ../lib/libbar_code.so: /usr/local/lib/libopencv_imgproc.so.3.2.0
 ../lib/libbar_code.so: /usr/local/lib/libopencv_core.so.3.2.0
 ../lib/libbar_code.so: src/CMakeFiles/bar_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libbar_code.so"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bar_code.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libbar_code.so"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bar_code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/bar_code.dir/build: ../lib/libbar_code.so
@@ -142,14 +194,16 @@ src/CMakeFiles/bar_code.dir/build: ../lib/libbar_code.so
 .PHONY : src/CMakeFiles/bar_code.dir/build
 
 src/CMakeFiles/bar_code.dir/requires: src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o.requires
+src/CMakeFiles/bar_code.dir/requires: src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o.requires
+src/CMakeFiles/bar_code.dir/requires: src/CMakeFiles/bar_code.dir/image_handle.cpp.o.requires
 
 .PHONY : src/CMakeFiles/bar_code.dir/requires
 
 src/CMakeFiles/bar_code.dir/clean:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/src && $(CMAKE_COMMAND) -P CMakeFiles/bar_code.dir/cmake_clean.cmake
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/bar_code.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/bar_code.dir/clean
 
 src/CMakeFiles/bar_code.dir/depend:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuxuxu/b/My_notes1/条形码识别 /home/xuxuxu/b/My_notes1/条形码识别/src /home/xuxuxu/b/My_notes1/条形码识别/build /home/xuxuxu/b/My_notes1/条形码识别/build/src /home/xuxuxu/b/My_notes1/条形码识别/build/src/CMakeFiles/bar_code.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/bar_code.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/CMakeFiles/bar_code.dir/depend
 

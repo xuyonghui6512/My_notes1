@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuxuxu/b/My_notes1/条形码识别/src/my_bar_code.cpp" "/home/xuxuxu/b/My_notes1/条形码识别/build/src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
+  "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o"
+  "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/bar_code.dir/image_handle.cpp.o"
+  "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -22,7 +22,7 @@ namespace mybar_code
       static void Zbar_It(Mat& _img,Bar_code& _bar_code);//Zbar解码
       static void Judge_QRCode(Mat& img,Bar_code& _bar_code);//判断是否为二维码，判断结果直接存放在_bar_code里
       static Point Center_cal(vector<vector<Point> > contours,int i);//计算矩形轮廓中心
-      static Mat Find_Bar_Code_And_Rotate(Mat& _img);
+      static bool Find_Bar_Code_And_Rotate(Mat& _img,Mat &roi);
     };
 }
 #endif //FIND_AND_PICK_H

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuxuxu/b/My_notes1/条形码识别
+CMAKE_SOURCE_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuxuxu/b/My_notes1/条形码识别/build
+CMAKE_BINARY_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -136,6 +136,32 @@ run_test/fast:
 	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/build
 .PHONY : run_test/fast
 
+#=============================================================================
+# Target rules for targets named capset
+
+# Build rule for target.
+capset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 capset
+.PHONY : capset
+
+# fast build rule for target.
+capset/fast:
+	$(MAKE) -f capset/CMakeFiles/capset.dir/build.make capset/CMakeFiles/capset.dir/build
+.PHONY : capset/fast
+
+#=============================================================================
+# Target rules for targets named myVideoCap
+
+# Build rule for target.
+myVideoCap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myVideoCap
+.PHONY : myVideoCap
+
+# fast build rule for target.
+myVideoCap/fast:
+	$(MAKE) -f capset/CMakeFiles/myVideoCap.dir/build.make capset/CMakeFiles/myVideoCap.dir/build
+.PHONY : myVideoCap/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +172,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bar_code"
 	@echo "... run_test"
+	@echo "... capset"
+	@echo "... myVideoCap"
 .PHONY : help
 
 

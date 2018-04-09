@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuxuxu/b/My_notes1/条形码识别
+CMAKE_SOURCE_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuxuxu/b/My_notes1/条形码识别/build
+CMAKE_BINARY_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles /home/xuxuxu/b/My_notes1/条形码识别/build/src/CMakeFiles/progress.marks
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles 0
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/progress.marks"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/bar_code.dir/rule:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/bar_code.dir/rule
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/bar_code.dir/rule
 .PHONY : src/CMakeFiles/bar_code.dir/rule
 
 # Convenience name for target.
@@ -122,8 +122,62 @@ bar_code: src/CMakeFiles/bar_code.dir/rule
 
 # fast build rule for target.
 bar_code/fast:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/build
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/build
 .PHONY : bar_code/fast
+
+find_and_pick.o: find_and_pick.cpp.o
+
+.PHONY : find_and_pick.o
+
+# target to build an object file
+find_and_pick.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.o
+.PHONY : find_and_pick.cpp.o
+
+find_and_pick.i: find_and_pick.cpp.i
+
+.PHONY : find_and_pick.i
+
+# target to preprocess a source file
+find_and_pick.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.i
+.PHONY : find_and_pick.cpp.i
+
+find_and_pick.s: find_and_pick.cpp.s
+
+.PHONY : find_and_pick.s
+
+# target to generate assembly for a file
+find_and_pick.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/find_and_pick.cpp.s
+.PHONY : find_and_pick.cpp.s
+
+image_handle.o: image_handle.cpp.o
+
+.PHONY : image_handle.o
+
+# target to build an object file
+image_handle.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.o
+.PHONY : image_handle.cpp.o
+
+image_handle.i: image_handle.cpp.i
+
+.PHONY : image_handle.i
+
+# target to preprocess a source file
+image_handle.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.i
+.PHONY : image_handle.cpp.i
+
+image_handle.s: image_handle.cpp.s
+
+.PHONY : image_handle.s
+
+# target to generate assembly for a file
+image_handle.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.s
+.PHONY : image_handle.cpp.s
 
 my_bar_code.o: my_bar_code.cpp.o
 
@@ -131,7 +185,7 @@ my_bar_code.o: my_bar_code.cpp.o
 
 # target to build an object file
 my_bar_code.cpp.o:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o
 .PHONY : my_bar_code.cpp.o
 
 my_bar_code.i: my_bar_code.cpp.i
@@ -140,7 +194,7 @@ my_bar_code.i: my_bar_code.cpp.i
 
 # target to preprocess a source file
 my_bar_code.cpp.i:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.i
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.i
 .PHONY : my_bar_code.cpp.i
 
 my_bar_code.s: my_bar_code.cpp.s
@@ -149,7 +203,7 @@ my_bar_code.s: my_bar_code.cpp.s
 
 # target to generate assembly for a file
 my_bar_code.cpp.s:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.s
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.s
 .PHONY : my_bar_code.cpp.s
 
 # Help Target
@@ -161,6 +215,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bar_code"
+	@echo "... find_and_pick.o"
+	@echo "... find_and_pick.i"
+	@echo "... find_and_pick.s"
+	@echo "... image_handle.o"
+	@echo "... image_handle.i"
+	@echo "... image_handle.s"
 	@echo "... my_bar_code.o"
 	@echo "... my_bar_code.i"
 	@echo "... my_bar_code.s"
@@ -175,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -190,9 +190,9 @@ namespace mybar_code{
 
 
     //寻找一副图中的二维码并旋转矫正
-    Mat CodeDetect::Find_Bar_Code_And_Rotate(Mat &_img)
+    bool CodeDetect::Find_Bar_Code_And_Rotate(Mat &_img,Mat &_roi)
     {
-        Mat srcImg=_img;
+        Mat srcImg=_img.clone();
         Mat srcGray;
         cvtColor(srcImg,srcGray,CV_RGB2GRAY);
         Mat grad_x,grad_y;
@@ -237,9 +237,9 @@ namespace mybar_code{
                    Scalar(0, 255, 0), -1, 8);
             bar_code_rect.points(rect);  //把最小外接矩形四个端点复制给rect数组
 
-//            for (int j = 0; j < 4; j++) {
-//                line(srcImg, rect[j], rect[(j + 1) % 4], Scalar(0, 0, 255), 2, 8);  //绘制最小外接矩形每条边
-//            }
+            for (int j = 0; j < 4; j++) {
+                line(srcImg, rect[j], rect[(j + 1) % 4], Scalar(0, 0, 255), 2, 8);  //绘制最小外接矩形每条边
+            }
             for(int i=0;i<4;i++)
             {
                 if(rect[i].x<bar_code_rect.center.x&&rect[i].y<bar_code_rect.center.y)
@@ -253,12 +253,32 @@ namespace mybar_code{
             }
             imshow("原图", srcGray);
             imshow("结果图", srcImg);
-//            Rect ROI;
-//            ROI.x=rectlftop.x;
-//            ROI.y=rectlftop.y;
-//            ROI.width=abs(rectrhtop.x-rectlftop.x);
-//            ROI.height=abs(rectrhub.y-rectrhtop.y);
-            return srcImg(bar_code_rect.boundingRect());
+            Rect ROI;
+            int tt=30;
+            if(rectlftop.x-tt<0||rectlfub.x-tt<0
+                    ||rectrhtop.x+tt>_img.cols
+                    ||rectrhub.x+tt>_img.cols
+                    ||rectlftop.y-tt<0||rectrhtop.y-tt<0
+                    ||rectlfub.y+tt>_img.rows
+                    ||rectrhub.y+tt>_img.rows) {
+                cout << "/////////////////////////" << endl;
+                cout << rectlftop << endl;
+                cout << rectlfub << endl;
+                cout << rectrhtop << endl;
+                cout << rectrhub << endl;
+                cout<<_img.cols<<endl;
+                cout<<_img.rows<<endl;
+                cout << "/////////////////////////" << endl;
+                return false;
+            }
+            else {
+                ROI.x = rectlftop.x-tt;
+                ROI.y = rectlftop.y-tt;
+                ROI.width = abs(rectrhtop.x - rectlftop.x+2*tt);
+                ROI.height = abs(rectrhub.y - rectrhtop.y+2*tt);
+                _roi=_img(ROI);
+                return true;
+            }
         }
     }
 }

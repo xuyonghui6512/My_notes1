@@ -4,7 +4,9 @@
 test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/common_include.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/find_and_pick.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/image_handle.h
+test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/myVideoCap.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/my_bar_code.h
+test/CMakeFiles/run_test.dir/video_test.cpp.o: ../include/v4l2uvc.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: ../test/video_test.cpp
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv/cxcore.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/calib3d.hpp
@@ -72,10 +74,12 @@ test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/flann/
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/flann/saving.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/flann/timer.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/highgui.hpp
+test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgcodecs.hpp
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgproc.hpp
+test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgproc/imgproc.hpp
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgproc/imgproc_c.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 test/CMakeFiles/run_test.dir/video_test.cpp.o: /usr/local/include/opencv2/ml.hpp

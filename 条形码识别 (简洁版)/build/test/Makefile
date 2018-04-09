@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuxuxu/b/My_notes1/条形码识别
+CMAKE_SOURCE_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuxuxu/b/My_notes1/条形码识别/build
+CMAKE_BINARY_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles /home/xuxuxu/b/My_notes1/条形码识别/build/test/CMakeFiles/progress.marks
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles 0
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/CMakeFiles/progress.marks"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/run_test.dir/rule:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_test.dir/rule
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_test.dir/rule
 .PHONY : test/CMakeFiles/run_test.dir/rule
 
 # Convenience name for target.
@@ -122,35 +122,35 @@ run_test: test/CMakeFiles/run_test.dir/rule
 
 # fast build rule for target.
 run_test/fast:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/build
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/build
 .PHONY : run_test/fast
 
-run_test.o: run_test.cpp.o
+video_test.o: video_test.cpp.o
 
-.PHONY : run_test.o
+.PHONY : video_test.o
 
 # target to build an object file
-run_test.cpp.o:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/run_test.cpp.o
-.PHONY : run_test.cpp.o
+video_test.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.o
+.PHONY : video_test.cpp.o
 
-run_test.i: run_test.cpp.i
+video_test.i: video_test.cpp.i
 
-.PHONY : run_test.i
+.PHONY : video_test.i
 
 # target to preprocess a source file
-run_test.cpp.i:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/run_test.cpp.i
-.PHONY : run_test.cpp.i
+video_test.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.i
+.PHONY : video_test.cpp.i
 
-run_test.s: run_test.cpp.s
+video_test.s: video_test.cpp.s
 
-.PHONY : run_test.s
+.PHONY : video_test.s
 
 # target to generate assembly for a file
-run_test.cpp.s:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/run_test.cpp.s
-.PHONY : run_test.cpp.s
+video_test.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.s
+.PHONY : video_test.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... run_test"
-	@echo "... run_test.o"
-	@echo "... run_test.i"
-	@echo "... run_test.s"
+	@echo "... video_test.o"
+	@echo "... video_test.i"
+	@echo "... video_test.s"
 .PHONY : help
 
 
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

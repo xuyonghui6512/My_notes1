@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuxuxu/b/My_notes1/条形码识别
+CMAKE_SOURCE_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuxuxu/b/My_notes1/条形码识别/build
+CMAKE_BINARY_DIR = "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build"
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/run_test.dir/depend.make
@@ -57,38 +57,38 @@ include test/CMakeFiles/run_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/run_test.dir/flags.make
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o: test/CMakeFiles/run_test.dir/flags.make
-test/CMakeFiles/run_test.dir/run_test.cpp.o: ../test/run_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_test.dir/run_test.cpp.o"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/test && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_test.dir/run_test.cpp.o -c /home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp
+test/CMakeFiles/run_test.dir/video_test.cpp.o: test/CMakeFiles/run_test.dir/flags.make
+test/CMakeFiles/run_test.dir/video_test.cpp.o: ../test/video_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_test.dir/video_test.cpp.o"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_test.dir/video_test.cpp.o -c "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp"
 
-test/CMakeFiles/run_test.dir/run_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_test.dir/run_test.cpp.i"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/test && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp > CMakeFiles/run_test.dir/run_test.cpp.i
+test/CMakeFiles/run_test.dir/video_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_test.dir/video_test.cpp.i"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp" > CMakeFiles/run_test.dir/video_test.cpp.i
 
-test/CMakeFiles/run_test.dir/run_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_test.dir/run_test.cpp.s"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/test && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp -o CMakeFiles/run_test.dir/run_test.cpp.s
+test/CMakeFiles/run_test.dir/video_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_test.dir/video_test.cpp.s"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp" -o CMakeFiles/run_test.dir/video_test.cpp.s
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.requires:
+test/CMakeFiles/run_test.dir/video_test.cpp.o.requires:
 
-.PHONY : test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
+.PHONY : test/CMakeFiles/run_test.dir/video_test.cpp.o.requires
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.provides: test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
-	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/run_test.cpp.o.provides.build
-.PHONY : test/CMakeFiles/run_test.dir/run_test.cpp.o.provides
+test/CMakeFiles/run_test.dir/video_test.cpp.o.provides: test/CMakeFiles/run_test.dir/video_test.cpp.o.requires
+	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.o.provides.build
+.PHONY : test/CMakeFiles/run_test.dir/video_test.cpp.o.provides
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.provides.build: test/CMakeFiles/run_test.dir/run_test.cpp.o
+test/CMakeFiles/run_test.dir/video_test.cpp.o.provides.build: test/CMakeFiles/run_test.dir/video_test.cpp.o
 
 
 # Object files for target run_test
 run_test_OBJECTS = \
-"CMakeFiles/run_test.dir/run_test.cpp.o"
+"CMakeFiles/run_test.dir/video_test.cpp.o"
 
 # External object files for target run_test
 run_test_EXTERNAL_OBJECTS =
 
-../bin/run_test: test/CMakeFiles/run_test.dir/run_test.cpp.o
+../bin/run_test: test/CMakeFiles/run_test.dir/video_test.cpp.o
 ../bin/run_test: test/CMakeFiles/run_test.dir/build.make
 ../bin/run_test: ../lib/libbar_code.so
 ../bin/run_test: /usr/local/lib/libopencv_stitching.so.3.2.0
@@ -134,23 +134,23 @@ run_test_EXTERNAL_OBJECTS =
 ../bin/run_test: /usr/local/lib/libopencv_imgproc.so.3.2.0
 ../bin/run_test: /usr/local/lib/libopencv_core.so.3.2.0
 ../bin/run_test: test/CMakeFiles/run_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xuxuxu/b/My_notes1/条形码识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/run_test"
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/run_test"
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/run_test.dir/build: ../bin/run_test
 
 .PHONY : test/CMakeFiles/run_test.dir/build
 
-test/CMakeFiles/run_test.dir/requires: test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
+test/CMakeFiles/run_test.dir/requires: test/CMakeFiles/run_test.dir/video_test.cpp.o.requires
 
 .PHONY : test/CMakeFiles/run_test.dir/requires
 
 test/CMakeFiles/run_test.dir/clean:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build/test && $(CMAKE_COMMAND) -P CMakeFiles/run_test.dir/cmake_clean.cmake
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/run_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_test.dir/clean
 
 test/CMakeFiles/run_test.dir/depend:
-	cd /home/xuxuxu/b/My_notes1/条形码识别/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuxuxu/b/My_notes1/条形码识别 /home/xuxuxu/b/My_notes1/条形码识别/test /home/xuxuxu/b/My_notes1/条形码识别/build /home/xuxuxu/b/My_notes1/条形码识别/build/test /home/xuxuxu/b/My_notes1/条形码识别/build/test/CMakeFiles/run_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/CMakeFiles/run_test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_test.dir/depend
 

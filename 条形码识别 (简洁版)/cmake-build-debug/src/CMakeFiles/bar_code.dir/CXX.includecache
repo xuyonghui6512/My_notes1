@@ -34,9 +34,71 @@ zbar.h
 common_include.h
 ../include/common_include.h
 
+../include/myVideoCap.h
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/file.h
+-
+string.h
+-
+pthread.h
+-
+linux/videodev2.h
+-
+sys/ioctl.h
+-
+sys/mman.h
+-
+errno.h
+-
+fcntl.h
+-
+time.h
+-
+sys/time.h
+-
+signal.h
+-
+v4l2uvc.h
+../include/v4l2uvc.h
+
 ../include/my_bar_code.h
 common_include.h
 ../include/common_include.h
+
+../include/v4l2uvc.h
+stdio.h
+-
+string.h
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+sys/ioctl.h
+-
+sys/mman.h
+-
+sys/select.h
+-
+linux/videodev2.h
+-
 
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/find_and_pick.cpp
 my_bar_code.h
@@ -50,6 +112,12 @@ opencv2/opencv.hpp
 image_handle.h
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.h
 opencv2/opencv.hpp
+-
+
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/myVideoCap.cpp
+myVideoCap.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/myVideoCap.h
+iostream
 -
 
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp
@@ -784,6 +852,10 @@ opencv2/videoio.hpp
 opencv2/highgui/highgui_c.h
 /usr/local/include/opencv2/opencv2/highgui/highgui_c.h
 
+/usr/local/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+/usr/local/include/opencv2/highgui/opencv2/highgui.hpp
+
 /usr/local/include/opencv2/highgui/highgui_c.h
 opencv2/core/core_c.h
 /usr/local/include/opencv2/highgui/opencv2/core/core_c.h
@@ -837,6 +909,10 @@ opencv2/highgui.hpp
 /usr/local/include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
+
+/usr/local/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h

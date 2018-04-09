@@ -22,13 +22,33 @@ iostream
 set
 -
 
+../include/find_and_pick.h
+common_include.h
+../include/common_include.h
+my_bar_code.h
+../include/my_bar_code.h
+zbar.h
+-
+
+../include/image_handle.h
+common_include.h
+../include/common_include.h
+
 ../include/my_bar_code.h
 common_include.h
 ../include/common_include.h
 
-/home/xuxuxu/b/My_notes1/条形码识别/test/run_test.cpp
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp
 my_bar_code.h
-/home/xuxuxu/b/My_notes1/条形码识别/test/my_bar_code.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/my_bar_code.h
+find_and_pick.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/find_and_pick.h
+opencv2/opencv.hpp
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/opencv2/opencv.hpp
+image_handle.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/image_handle.h
+capset/myVideoCap.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/capset/myVideoCap.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
@@ -1255,4 +1275,76 @@ opencv2/core/cuda.hpp
 /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 opencv2/features2d.hpp
 /usr/local/include/opencv2/xfeatures2d/opencv2/features2d.hpp
+
+/usr/local/include/zbar.h
+zbar/Exception.h
+/usr/local/include/zbar/Exception.h
+zbar/Decoder.h
+/usr/local/include/zbar/Decoder.h
+zbar/Scanner.h
+/usr/local/include/zbar/Scanner.h
+zbar/Symbol.h
+/usr/local/include/zbar/Symbol.h
+zbar/Image.h
+/usr/local/include/zbar/Image.h
+zbar/ImageScanner.h
+/usr/local/include/zbar/ImageScanner.h
+zbar/Video.h
+/usr/local/include/zbar/Video.h
+zbar/Window.h
+/usr/local/include/zbar/Window.h
+zbar/Processor.h
+/usr/local/include/zbar/Processor.h
+
+/usr/local/include/zbar/Decoder.h
+string
+-
+
+/usr/local/include/zbar/Exception.h
+exception
+-
+new
+-
+
+/usr/local/include/zbar/Image.h
+assert.h
+-
+iterator
+-
+Symbol.h
+/usr/local/include/zbar/Symbol.h
+Exception.h
+/usr/local/include/zbar/Exception.h
+
+/usr/local/include/zbar/ImageScanner.h
+Image.h
+/usr/local/include/zbar/Image.h
+
+/usr/local/include/zbar/Processor.h
+Exception.h
+/usr/local/include/zbar/Exception.h
+Image.h
+/usr/local/include/zbar/Image.h
+
+/usr/local/include/zbar/Scanner.h
+stdio.h
+-
+
+/usr/local/include/zbar/Symbol.h
+stdlib.h
+-
+string
+-
+ostream
+-
+assert.h
+-
+
+/usr/local/include/zbar/Video.h
+Image.h
+/usr/local/include/zbar/Image.h
+
+/usr/local/include/zbar/Window.h
+Image.h
+/usr/local/include/zbar/Image.h
 

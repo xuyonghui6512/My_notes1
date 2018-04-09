@@ -179,6 +179,33 @@ image_handle.cpp.s:
 	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/image_handle.cpp.s
 .PHONY : image_handle.cpp.s
 
+myVideoCap.o: myVideoCap.cpp.o
+
+.PHONY : myVideoCap.o
+
+# target to build an object file
+myVideoCap.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/myVideoCap.cpp.o
+.PHONY : myVideoCap.cpp.o
+
+myVideoCap.i: myVideoCap.cpp.i
+
+.PHONY : myVideoCap.i
+
+# target to preprocess a source file
+myVideoCap.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/myVideoCap.cpp.i
+.PHONY : myVideoCap.cpp.i
+
+myVideoCap.s: myVideoCap.cpp.s
+
+.PHONY : myVideoCap.s
+
+# target to generate assembly for a file
+myVideoCap.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/myVideoCap.cpp.s
+.PHONY : myVideoCap.cpp.s
+
 my_bar_code.o: my_bar_code.cpp.o
 
 .PHONY : my_bar_code.o
@@ -206,6 +233,33 @@ my_bar_code.cpp.s:
 	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.s
 .PHONY : my_bar_code.cpp.s
 
+v4l2uvc.o: v4l2uvc.c.o
+
+.PHONY : v4l2uvc.o
+
+# target to build an object file
+v4l2uvc.c.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/v4l2uvc.c.o
+.PHONY : v4l2uvc.c.o
+
+v4l2uvc.i: v4l2uvc.c.i
+
+.PHONY : v4l2uvc.i
+
+# target to preprocess a source file
+v4l2uvc.c.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/v4l2uvc.c.i
+.PHONY : v4l2uvc.c.i
+
+v4l2uvc.s: v4l2uvc.c.s
+
+.PHONY : v4l2uvc.s
+
+# target to generate assembly for a file
+v4l2uvc.c.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/v4l2uvc.c.s
+.PHONY : v4l2uvc.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -221,9 +275,15 @@ help:
 	@echo "... image_handle.o"
 	@echo "... image_handle.i"
 	@echo "... image_handle.s"
+	@echo "... myVideoCap.o"
+	@echo "... myVideoCap.i"
+	@echo "... myVideoCap.s"
 	@echo "... my_bar_code.o"
 	@echo "... my_bar_code.i"
 	@echo "... my_bar_code.s"
+	@echo "... v4l2uvc.o"
+	@echo "... v4l2uvc.i"
+	@echo "... v4l2uvc.s"
 .PHONY : help
 
 

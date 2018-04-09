@@ -5,7 +5,9 @@ test/CMakeFiles/run_test.dir/video_test.cpp.o
  ../include/common_include.h
  ../include/find_and_pick.h
  ../include/image_handle.h
+ ../include/myVideoCap.h
  ../include/my_bar_code.h
+ ../include/v4l2uvc.h
  /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
@@ -73,10 +75,12 @@ test/CMakeFiles/run_test.dir/video_test.cpp.o
  /usr/local/include/opencv2/flann/saving.h
  /usr/local/include/opencv2/flann/timer.h
  /usr/local/include/opencv2/highgui.hpp
+ /usr/local/include/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv2/highgui/highgui_c.h
  /usr/local/include/opencv2/imgcodecs.hpp
  /usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
  /usr/local/include/opencv2/imgproc.hpp
+ /usr/local/include/opencv2/imgproc/imgproc.hpp
  /usr/local/include/opencv2/imgproc/imgproc_c.h
  /usr/local/include/opencv2/imgproc/types_c.h
  /usr/local/include/opencv2/ml.hpp

@@ -3,16 +3,19 @@
 #include "find_and_pick.h"
 #include "opencv2/opencv.hpp"
 #include "image_handle.h"
+#include"myVideoCap.h"
 
 int main ( int argc, char** argv )
 {
-    VideoCapture cap;
-    cap.open(0);
+//    VideoCapture cap;
+//    cap.open(1);
+    hitcrt::myVideoCap cap("/dev/video2",1024,768,30);
     Mat frame;
     mybar_code::Bar_code a;
     while(1) {
         clock_t start_time = clock();
-        cap>>frame;
+//        cap>>frame;
+        cap.VideoGrab(frame);
        // Mat img = frame.clone();
         mybar_code::CodeDetect::Judge_QRCode(frame,a);
 //    Mat img11;
