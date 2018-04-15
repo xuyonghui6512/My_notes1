@@ -1,0 +1,3 @@
+/home/xuxuxu/b/My_notes1/多线程练习/build/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/多线程练习/build/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/多线程练习/build/CMakeFiles/multithreading.dir
