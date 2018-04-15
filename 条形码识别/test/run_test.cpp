@@ -17,7 +17,7 @@ int main ( int argc, char** argv )
 //    {
         clock_t start_time = clock();
 //        cap>>frame;
-    Mat img=imread("/home/xuxuxu/b/二维码测试图片/18.jpg");
+    Mat img=imread("/home/xuxuxu/b/二维码测试图片/30.jpg");
 
     //cout<<a.code_info;
 //          mybar_code::CodeDetect::Judge_QRCode(img,a);
