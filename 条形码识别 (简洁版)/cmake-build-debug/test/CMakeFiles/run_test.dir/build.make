@@ -135,6 +135,35 @@ run_test_EXTERNAL_OBJECTS =
 ../bin/run_test: /usr/local/lib/libopencv_core.so.3.2.0
 ../bin/run_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
 ../bin/run_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/run_test: /opt/pylon5/lib64/libbxapi.so
+../bin/run_test: /opt/pylon5/lib64/libbxapi-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libgxapi.so
+../bin/run_test: /opt/pylon5/lib64/libgxapi-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libLog_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/libpylonbase.so
+../bin/run_test: /opt/pylon5/lib64/libpylonbase-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylonc.so
+../bin/run_test: /opt/pylon5/lib64/libpylonc-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_bcon.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_bcon-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_camemu.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_camemu-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_gige.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_gige-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_usb.so
+../bin/run_test: /opt/pylon5/lib64/libpylon_TL_usb-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libpylonutility.so
+../bin/run_test: /opt/pylon5/lib64/libpylonutility-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libuxapi.so
+../bin/run_test: /opt/pylon5/lib64/libuxapi-5.0.11.so
+../bin/run_test: /opt/pylon5/lib64/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so
+../bin/run_test: /opt/pylon5/lib64/pylon-libusb-1.0.so
 ../bin/run_test: test/CMakeFiles/run_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/run_test"
 	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_test.dir/link.txt --verbose=$(VERBOSE)

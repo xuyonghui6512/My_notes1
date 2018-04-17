@@ -13,6 +13,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/include/opencv"
+  "/opt/pylon5/include"
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
@@ -27,6 +28,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/include/opencv"
+  "/opt/pylon5/include"
   "../include"
   )
 

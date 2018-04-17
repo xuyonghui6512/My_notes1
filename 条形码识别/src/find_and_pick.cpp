@@ -189,7 +189,7 @@ namespace mybar_code{
 
 
 
-    //寻找一副图中的二维码并旋转矫正
+    //寻找一副图中的条形码并旋转矫正
     bool CodeDetect::Find_Bar_Code_And_Rotate(Mat &_img,Mat &_roi)
     {
         Mat srcImg=_img.clone();

@@ -17,26 +17,26 @@ int main ( int argc, char** argv )
 //    {
         clock_t start_time = clock();
 //        cap>>frame;
-    Mat img=imread("/home/xuxuxu/b/二维码测试图片/30.jpg");
+    Mat img=imread("/home/xuxuxu/b/二维码测试图片/5.jpg");
 
     //cout<<a.code_info;
-//          mybar_code::CodeDetect::Judge_QRCode(img,a);
+         mybar_code::CodeDetect::Judge_QRCode(img,a);
 //   mybar_code::CodeDetect::Zbar_It(img,a);
 
 
 //    a.bar_code_show(a);
     //Mat lena = imread("/home/xuxuxu/b/二维码测试图片/16.jpg");
-    Mat img11;
-    //mybar_code::Image_handle::Image_sharp(img,img11);
-    //imshow("img",img11);
-     mybar_code::CodeDetect::Find_Bar_Code_And_Rotate(img,img11);
-    //resize(img11,img11,Size(600,800));
-    if(!img11.empty()) {
-        mybar_code::CodeDetect::Zbar_It(img11, a);
-        a.bar_code_show(a);
-    }
-    if(!img11.empty())
-    imshow("1",img11);
+//    Mat img11;
+//    //mybar_code::Image_handle::Image_sharp(img,img11);
+//    //imshow("img",img11);
+//     mybar_code::CodeDetect::Find_Bar_Code_And_Rotate(img,img11);
+//    //resize(img11,img11,Size(600,800));
+//    if(!img11.empty()) {
+//        mybar_code::CodeDetect::Zbar_It(img11, a);
+//        a.bar_code_show(a);
+//    }
+//    if(!img11.empty())
+//    imshow("1",img11);
     clock_t end_time = clock();
     std::cout<<"Runing time is:"
              <<static_cast<double>(end_time - start_time)/CLOCKS_PER_SEC*1000

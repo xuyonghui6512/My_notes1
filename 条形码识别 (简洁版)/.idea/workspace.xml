@@ -59,7 +59,7 @@
       <file leaf-file-name="video_test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/video_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
+            <state relative-caret-position="72">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
@@ -69,7 +69,7 @@
       <file leaf-file-name="find_and_pick.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/find_and_pick.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="522">
               <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
@@ -193,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../程序测试" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,11 +284,12 @@
       <workItem from="1523628030731" duration="1143000" />
       <workItem from="1523666018603" duration="11197000" />
       <workItem from="1523678452668" duration="580000" />
+      <workItem from="1523880442115" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62185000" />
+    <option name="totallyTimeSpent" value="62206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="34" width="1299" height="736" extended-state="0" />
@@ -684,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/find_and_pick.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="522">
           <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
@@ -692,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/video_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
+        <state relative-caret-position="72">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>

@@ -7,7 +7,7 @@ using namespace cv;
 
 int main() {
 
-    Mat srcImg = imread("/home/xuxuxu/b/二维码测试图片/38.jpg");
+    Mat srcImg = imread("/home/xuxuxu/b/二维码测试图片/30.jpg");
     clock_t start_time = clock();
     Mat srcGray;
     cvtColor(srcImg, srcGray, CV_RGB2GRAY);
@@ -21,7 +21,7 @@ int main() {
     subtract(grad_x, grad_y, gradient);
     //imshow("gradient1", gradient);
     convertScaleAbs(gradient, gradient);//得到包含高水平梯度和低竖直梯度的图像区域
-    //imshow("gradient", gradient);
+    imshow("gradient", gradient);
     Mat blur_img;
     blur(gradient, blur_img, Size(9, 9));//模糊
     //imshow("blur",blur_img);
@@ -139,6 +139,7 @@ int main() {
     rectangle(srcImg, Point(bar_code_rect[findnum].boundingRect().x, bar_code_rect[findnum].boundingRect().y), Point(bar_code_rect[findnum].boundingRect().x
              + bar_code_rect[findnum].boundingRect().width, bar_code_rect[findnum].boundingRect().y + bar_code_rect[findnum].boundingRect().height), Scalar(0, 255, 0), 2, 8);
     ////////////////////////////////////////////////////////
+    imshow("1",srcImg);
     /* 旋转矫正部分代码*/
     cout<<bar_code_rect[findnum].angle<<endl;
     float  angle=bar_code_rect[findnum].angle;
