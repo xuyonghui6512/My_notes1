@@ -136,32 +136,6 @@ run_test/fast:
 	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/build
 .PHONY : run_test/fast
 
-#=============================================================================
-# Target rules for targets named capset
-
-# Build rule for target.
-capset: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 capset
-.PHONY : capset
-
-# fast build rule for target.
-capset/fast:
-	$(MAKE) -f capset/CMakeFiles/capset.dir/build.make capset/CMakeFiles/capset.dir/build
-.PHONY : capset/fast
-
-#=============================================================================
-# Target rules for targets named myVideoCap
-
-# Build rule for target.
-myVideoCap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myVideoCap
-.PHONY : myVideoCap
-
-# fast build rule for target.
-myVideoCap/fast:
-	$(MAKE) -f capset/CMakeFiles/myVideoCap.dir/build.make capset/CMakeFiles/myVideoCap.dir/build
-.PHONY : myVideoCap/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -172,8 +146,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bar_code"
 	@echo "... run_test"
-	@echo "... capset"
-	@echo "... myVideoCap"
 .PHONY : help
 
 

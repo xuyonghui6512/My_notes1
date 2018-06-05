@@ -36,7 +36,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/cmake_install.cmake")
   include("/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/cmake_install.cmake")
-  include("/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/capset/cmake_install.cmake")
 
 endif()
 

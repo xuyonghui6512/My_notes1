@@ -125,32 +125,32 @@ run_test/fast:
 	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/build
 .PHONY : run_test/fast
 
-video_test.o: video_test.cpp.o
+basler_video_test.o: basler_video_test.cpp.o
 
-.PHONY : video_test.o
+.PHONY : basler_video_test.o
 
 # target to build an object file
-video_test.cpp.o:
-	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.o
-.PHONY : video_test.cpp.o
+basler_video_test.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/basler_video_test.cpp.o
+.PHONY : basler_video_test.cpp.o
 
-video_test.i: video_test.cpp.i
+basler_video_test.i: basler_video_test.cpp.i
 
-.PHONY : video_test.i
+.PHONY : basler_video_test.i
 
 # target to preprocess a source file
-video_test.cpp.i:
-	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.i
-.PHONY : video_test.cpp.i
+basler_video_test.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/basler_video_test.cpp.i
+.PHONY : basler_video_test.cpp.i
 
-video_test.s: video_test.cpp.s
+basler_video_test.s: basler_video_test.cpp.s
 
-.PHONY : video_test.s
+.PHONY : basler_video_test.s
 
 # target to generate assembly for a file
-video_test.cpp.s:
-	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/video_test.cpp.s
-.PHONY : video_test.cpp.s
+basler_video_test.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/basler_video_test.cpp.s
+.PHONY : basler_video_test.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... run_test"
-	@echo "... video_test.o"
-	@echo "... video_test.i"
-	@echo "... video_test.s"
+	@echo "... basler_video_test.o"
+	@echo "... basler_video_test.i"
+	@echo "... basler_video_test.s"
 .PHONY : help
 
 

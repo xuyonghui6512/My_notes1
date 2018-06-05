@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="daf3881b-7e77-4d3f-80d1-87a649813f06" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imshow</find>
+      <find>time</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/common_include.h" />
+        <option value="$PROJECT_DIR$/test/run_vo.cpp" />
+        <option value="$PROJECT_DIR$/src/my_bar_code.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/myVideoCap.cpp" />
+        <option value="$PROJECT_DIR$/capset/myVideoCap.h" />
+        <option value="$PROJECT_DIR$/include/v4l2uvc.h" />
+        <option value="$PROJECT_DIR$/test/video_test.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/image_handle.h" />
+        <option value="$PROJECT_DIR$/src/image_handle.cpp" />
+        <option value="$PROJECT_DIR$/src/serialapp.cpp" />
+        <option value="$PROJECT_DIR$/test/basler_and_formal.cpp" />
+        <option value="$PROJECT_DIR$/include/my_bar_code.h" />
+        <option value="$PROJECT_DIR$/test/basler_video_test.cpp" />
+        <option value="$PROJECT_DIR$/test/formal.cpp" />
+        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/find_and_pick.h" />
+        <option value="$PROJECT_DIR$/src/find_and_pick.cpp" />
+        <option value="$PROJECT_DIR$/test/run_test.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1299" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bar_code" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="祖光杯 (二维码识别开发版本）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bar_code" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="祖光杯 (二维码识别开发版本）" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bar_code" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="祖光杯 (二维码识别开发版本）" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bar_code" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="祖光杯 (二维码识别开发版本）" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../祖光杯 (复件)" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_test" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daf3881b-7e77-4d3f-80d1-87a649813f06" name="Default" comment="" />
+      <created>1522113834369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522113834369</updated>
+      <workItem from="1522113835730" duration="1266000" />
+      <workItem from="1522116578741" duration="1252000" />
+      <workItem from="1522117847510" duration="3227000" />
+      <workItem from="1522121136544" duration="752000" />
+      <workItem from="1522121908873" duration="58000" />
+      <workItem from="1522122035964" duration="2121000" />
+      <workItem from="1522155562430" duration="3159000" />
+      <workItem from="1522199331864" duration="89000" />
+      <workItem from="1522210429762" duration="1903000" />
+      <workItem from="1522232704049" duration="347000" />
+      <workItem from="1522233566949" duration="179000" />
+      <workItem from="1522358822735" duration="488000" />
+      <workItem from="1522330530809" duration="1077000" />
+      <workItem from="1522459074423" duration="573000" />
+      <workItem from="1522480571331" duration="6137000" />
+      <workItem from="1522487468456" duration="167000" />
+      <workItem from="1522542962024" duration="1135000" />
+      <workItem from="1522565684464" duration="19000" />
+      <workItem from="1522566263146" duration="61000" />
+      <workItem from="1522574619421" duration="58000" />
+      <workItem from="1522668140939" duration="648000" />
+      <workItem from="1522668972944" duration="510000" />
+      <workItem from="1522759639402" duration="440000" />
+      <workItem from="1522891592443" duration="1965000" />
+      <workItem from="1522897407470" duration="1082000" />
+      <workItem from="1522922077703" duration="516000" />
+      <workItem from="1522922612128" duration="1989000" />
+      <workItem from="1522977660388" duration="4896000" />
+      <workItem from="1523201528853" duration="12000" />
+      <workItem from="1523218373548" duration="2051000" />
+      <workItem from="1523267285439" duration="15000" />
+      <workItem from="1523320379372" duration="356000" />
+      <workItem from="1523320918818" duration="580000" />
+      <workItem from="1523321615800" duration="3620000" />
+      <workItem from="1523325603722" duration="87000" />
+      <workItem from="1523325719236" duration="129000" />
+      <workItem from="1523325888857" duration="394000" />
+      <workItem from="1523440519583" duration="111000" />
+      <workItem from="1523442324775" duration="750000" />
+      <workItem from="1523443121846" duration="135000" />
+      <workItem from="1523449104284" duration="473000" />
+      <workItem from="1523498062490" duration="948000" />
+      <workItem from="1523502854510" duration="2053000" />
+      <workItem from="1523615698094" duration="1267000" />
+      <workItem from="1523627841362" duration="170000" />
+      <workItem from="1523628030731" duration="1143000" />
+      <workItem from="1523666018603" duration="11197000" />
+      <workItem from="1523678452668" duration="580000" />
+      <workItem from="1523880442115" duration="21000" />
+      <workItem from="1524016158567" duration="1555000" />
+      <workItem from="1524025769136" duration="2040000" />
+      <workItem from="1524027955303" duration="360000" />
+      <workItem from="1524028356887" duration="933000" />
+      <workItem from="1524047897025" duration="3645000" />
+      <workItem from="1524141144493" duration="22000" />
+      <workItem from="1524143569709" duration="152000" />
+      <workItem from="1524144915996" duration="220000" />
+      <workItem from="1524154921771" duration="1376000" />
+      <workItem from="1524389168948" duration="3762000" />
+      <workItem from="1524393123559" duration="478000" />
+      <workItem from="1524393691114" duration="201000" />
+      <workItem from="1524394025641" duration="176000" />
+      <workItem from="1524395616294" duration="450000" />
+      <workItem from="1524396101641" duration="6863000" />
+      <workItem from="1524418416212" duration="404000" />
+      <workItem from="1524418967784" duration="390000" />
+      <workItem from="1524422339331" duration="1732000" />
+      <workItem from="1524424222781" duration="334000" />
+      <workItem from="1524426477764" duration="381000" />
+      <workItem from="1524767922417" duration="3806000" />
+      <workItem from="1524771847147" duration="12380000" />
+      <workItem from="1524902647967" duration="7730000" />
+      <workItem from="1524993246529" duration="1530000" />
+      <workItem from="1525000456021" duration="2290000" />
+      <workItem from="1525012146861" duration="1173000" />
+      <workItem from="1525028409781" duration="12179000" />
+      <workItem from="1525285578302" duration="1571000" />
+      <workItem from="1525372769211" duration="3846000" />
+      <workItem from="1525630486864" duration="8544000" />
+      <workItem from="1525802326529" duration="100000" />
+      <workItem from="1525802473301" duration="2075000" />
+      <workItem from="1525806827672" duration="178000" />
+      <workItem from="1526117516863" duration="232000" />
+      <workItem from="1526117930757" duration="1584000" />
+      <workItem from="1526120183254" duration="4055000" />
+      <workItem from="1526202152480" duration="463000" />
+      <workItem from="1526202640510" duration="9000" />
+      <workItem from="1526207547119" duration="956000" />
+      <workItem from="1526208625987" duration="255000" />
+      <workItem from="1526209050776" duration="621000" />
+      <workItem from="1526221475828" duration="4048000" />
+      <workItem from="1526239600801" duration="280000" />
+      <workItem from="1526240292187" duration="1393000" />
+      <workItem from="1526242050903" duration="1650000" />
+      <workItem from="1526258884268" duration="2593000" />
+      <workItem from="1526262773497" duration="2203000" />
+      <workItem from="1526265002968" duration="511000" />
+      <workItem from="1526265554508" duration="553000" />
+      <workItem from="1526266206110" duration="1169000" />
+      <workItem from="1526278467315" duration="3985000" />
+      <workItem from="1526296189304" duration="816000" />
+      <workItem from="1526297404527" duration="605000" />
+      <workItem from="1526301027224" duration="6191000" />
+      <workItem from="1526384273844" duration="7504000" />
+      <workItem from="1526460688191" duration="2075000" />
+      <workItem from="1526519658199" duration="214000" />
+      <workItem from="1526520340492" duration="25000" />
+      <workItem from="1526556956053" duration="72000" />
+      <workItem from="1526558652253" duration="52000" />
+      <workItem from="1526558778918" duration="2519000" />
+      <workItem from="1526622416914" duration="4869000" />
+      <workItem from="1526842181094" duration="3386000" />
+      <workItem from="1526890458530" duration="514000" />
+      <workItem from="1526862195116" duration="2622000" />
+      <workItem from="1526865425057" duration="344000" />
+      <workItem from="1526992372210" duration="5116000" />
+      <workItem from="1527063740498" duration="1693000" />
+      <workItem from="1527069685655" duration="313000" />
+      <workItem from="1527070217631" duration="1425000" />
+      <workItem from="1527183601473" duration="491000" />
+      <workItem from="1527184285441" duration="1291000" />
+      <workItem from="1528099463561" duration="1950000" />
+      <workItem from="1528119333702" duration="2069000" />
+      <workItem from="1528100923061" duration="210000" />
+      <workItem from="1528101153305" duration="428000" />
+      <workItem from="1528101605281" duration="25000" />
+      <workItem from="1528101716323" duration="68000" />
+      <workItem from="1528101874594" duration="8000" />
+      <workItem from="1528102064619" duration="203000" />
+      <workItem from="1528103287408" duration="139000" />
+      <workItem from="1528185285408" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="218905000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1299" height="744" extended-state="4" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2178599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50623053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25820896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33880597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2198309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/capset/myVideoCap.h</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/src/find_and_pick.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/run_test.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/test/run_vo.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/test/run_vo.cpp" />
+    <entry file="file:///usr/local/include/zbar/ImageScanner.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/zbar/Image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2718">
+          <caret line="151" column="44" lean-forward="false" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myVideoCap.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/v4l2uvc.h" />
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="727" column="17" lean-forward="false" selection-start-line="727" selection-start-column="17" selection-end-line="727" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capset/myVideoCap.h" />
+    <entry file="file://$PROJECT_DIR$/capset/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/test/video_test.cpp" />
+    <entry file="file://$PROJECT_DIR$/capset/myVideoCap.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/serialbase.h" />
+    <entry file="file://$PROJECT_DIR$/include/serialapp.h" />
+    <entry file="file://$PROJECT_DIR$/src/image_handle.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/serialapp.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/camera_set.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/src/serialbase.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/basler_and_formal.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/my_bar_code.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/basler_video_test.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/myVideoCap.h" />
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/include/my_bar_code.h" />
+    <entry file="file://$PROJECT_DIR$/include/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/test/formal.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/find_and_pick.h" />
+    <entry file="file://$PROJECT_DIR$/src/find_and_pick.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/image_handle.h" />
+    <entry file="file://$PROJECT_DIR$/test/run_test.cpp" />
+  </component>
+</project>

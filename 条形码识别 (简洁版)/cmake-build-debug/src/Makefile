@@ -233,6 +233,60 @@ my_bar_code.cpp.s:
 	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/my_bar_code.cpp.s
 .PHONY : my_bar_code.cpp.s
 
+serialapp.o: serialapp.cpp.o
+
+.PHONY : serialapp.o
+
+# target to build an object file
+serialapp.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialapp.cpp.o
+.PHONY : serialapp.cpp.o
+
+serialapp.i: serialapp.cpp.i
+
+.PHONY : serialapp.i
+
+# target to preprocess a source file
+serialapp.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialapp.cpp.i
+.PHONY : serialapp.cpp.i
+
+serialapp.s: serialapp.cpp.s
+
+.PHONY : serialapp.s
+
+# target to generate assembly for a file
+serialapp.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialapp.cpp.s
+.PHONY : serialapp.cpp.s
+
+serialbase.o: serialbase.cpp.o
+
+.PHONY : serialbase.o
+
+# target to build an object file
+serialbase.cpp.o:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialbase.cpp.o
+.PHONY : serialbase.cpp.o
+
+serialbase.i: serialbase.cpp.i
+
+.PHONY : serialbase.i
+
+# target to preprocess a source file
+serialbase.cpp.i:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialbase.cpp.i
+.PHONY : serialbase.cpp.i
+
+serialbase.s: serialbase.cpp.s
+
+.PHONY : serialbase.s
+
+# target to generate assembly for a file
+serialbase.cpp.s:
+	cd "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/bar_code.dir/build.make src/CMakeFiles/bar_code.dir/serialbase.cpp.s
+.PHONY : serialbase.cpp.s
+
 v4l2uvc.o: v4l2uvc.c.o
 
 .PHONY : v4l2uvc.o
@@ -281,6 +335,12 @@ help:
 	@echo "... my_bar_code.o"
 	@echo "... my_bar_code.i"
 	@echo "... my_bar_code.s"
+	@echo "... serialapp.o"
+	@echo "... serialapp.i"
+	@echo "... serialapp.s"
+	@echo "... serialbase.o"
+	@echo "... serialbase.i"
+	@echo "... serialbase.s"
 	@echo "... v4l2uvc.o"
 	@echo "... v4l2uvc.i"
 	@echo "... v4l2uvc.s"

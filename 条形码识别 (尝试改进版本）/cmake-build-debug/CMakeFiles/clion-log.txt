@@ -1,0 +1,5 @@
+/home/xuxuxu/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/xuxuxu/b/My_notes1/条形码识别 (尝试改进版本）"
+-- Boost version: 1.58.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xuxuxu/b/My_notes1/条形码识别 (尝试改进版本）/cmake-build-debug

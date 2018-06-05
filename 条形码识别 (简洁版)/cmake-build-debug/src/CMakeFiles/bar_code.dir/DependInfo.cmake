@@ -21,6 +21,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/image_handle.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/src/CMakeFiles/bar_code.dir/image_handle.cpp.o"
   "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/myVideoCap.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/src/CMakeFiles/bar_code.dir/myVideoCap.cpp.o"
   "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o"
+  "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialapp.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/src/CMakeFiles/bar_code.dir/serialapp.cpp.o"
+  "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialbase.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/cmake-build-debug/src/CMakeFiles/bar_code.dir/serialbase.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

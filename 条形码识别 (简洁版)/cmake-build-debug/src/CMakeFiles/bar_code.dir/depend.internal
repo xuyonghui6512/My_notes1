@@ -525,3 +525,10 @@ src/CMakeFiles/bar_code.dir/my_bar_code.cpp.o
  /usr/local/include/opencv2/xfeatures2d.hpp
  /usr/local/include/opencv2/xfeatures2d/cuda.hpp
  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
+src/CMakeFiles/bar_code.dir/serialapp.cpp.o
+ ../include/serialapp.h
+ ../include/serialbase.h
+ /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialapp.cpp
+src/CMakeFiles/bar_code.dir/serialbase.cpp.o
+ ../include/serialbase.h
+ /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialbase.cpp

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bar_code.dir/image_handle.cpp.o"
   "CMakeFiles/bar_code.dir/myVideoCap.cpp.o"
   "CMakeFiles/bar_code.dir/v4l2uvc.c.o"
+  "CMakeFiles/bar_code.dir/serialapp.cpp.o"
+  "CMakeFiles/bar_code.dir/serialbase.cpp.o"
   "../../lib/libbar_code.pdb"
   "../../lib/libbar_code.so"
 )

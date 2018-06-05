@@ -154,10 +154,16 @@
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp">
 			<Option target="bar_code"/>
 		</Unit>
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialapp.cpp">
+			<Option target="bar_code"/>
+		</Unit>
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialbase.cpp">
+			<Option target="bar_code"/>
+		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/v4l2uvc.c">
 			<Option target="bar_code"/>
 		</Unit>
-		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/video_test.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/test/basler_video_test.cpp">
 			<Option target="run_test"/>
 		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/CMakeLists.txt">

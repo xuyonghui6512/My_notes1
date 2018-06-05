@@ -1,0 +1,12 @@
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/src/CMakeFiles/bar_code.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/test/CMakeFiles/run_test.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/capset/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/capset/CMakeFiles/capset.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/capset/CMakeFiles/edit_cache.dir
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/build/capset/CMakeFiles/myVideoCap.dir

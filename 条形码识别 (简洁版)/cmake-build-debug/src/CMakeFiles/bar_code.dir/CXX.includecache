@@ -80,6 +80,18 @@ v4l2uvc.h
 common_include.h
 ../include/common_include.h
 
+../include/serialapp.h
+boost/thread/mutex.hpp
+-
+string
+-
+serialbase.h
+../include/serialbase.h
+
+../include/serialbase.h
+boost/asio.hpp
+-
+
 ../include/v4l2uvc.h
 stdio.h
 -
@@ -123,6 +135,14 @@ iostream
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.cpp
 my_bar_code.h
 /home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/my_bar_code.h
+
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialapp.cpp
+serialapp.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialapp.h
+
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialbase.cpp
+serialbase.h
+/home/xuxuxu/b/My_notes1/条形码识别 (简洁版)/src/serialbase.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
