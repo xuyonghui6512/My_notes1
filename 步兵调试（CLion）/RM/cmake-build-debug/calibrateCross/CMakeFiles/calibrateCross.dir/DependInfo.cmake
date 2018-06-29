@@ -4,19 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuduo/lab/RM/calibrateCross/calibrateCross.cpp" "/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/CMakeFiles/calibrateCross.dir/calibrateCross.cpp.o"
+  "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/calibrateCross/calibrateCross.cpp" "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/CMakeFiles/calibrateCross.dir/calibrateCross.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv"
   "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xuduo/lab/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/DependInfo.cmake"
+  "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/DependInfo.cmake"
+  "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/CMakeFiles/ArmorDetect.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

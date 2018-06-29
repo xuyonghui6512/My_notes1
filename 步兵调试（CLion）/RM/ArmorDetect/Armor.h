@@ -13,13 +13,13 @@ namespace hitcrt {
 struct LightBar{
     LightBar(){}
     ~LightBar(){}
-    std::vector<cv::Point> m_contour;
+    std::vector<cv::Point> m_contour;//光柱的轮廓
     float m_contourArea;
-    std::vector<cv::Point2f> m_insidePoints;
+    std::vector<cv::Point2f> m_insidePoints;//光柱内点
     cv::RotatedRect m_rotateRect;
     cv::Vec6f line_6f;
-    cv::Point2f m_upper;
-    cv::Point2f m_bottom;
+    cv::Point2f m_upper;//光柱的上部
+    cv::Point2f m_bottom;//光柱的下部
 };
 
 
@@ -28,16 +28,15 @@ public:
     Armor(){}
     ~Armor(){}
     typedef enum type{
-        RFID = 0,
-        INFANTRY,       //小装甲
-        HERO            //大装甲
+        INFANTRY = 0,   //大装甲
+        HERO            //小装甲
     }TYPE;
-    static float hereo_width;     //大装甲宽度
-    static float hereo_height;    //大装甲高度
-    static float infantry_width;  //小装甲宽度
-    static float infantry_height; //小装甲高度
+    static float hereo_width;
+    static float hereo_height;
+    static float infantry_width;
+    static float infantry_height;
     TYPE m_type;
-    float m_distance;     //装甲到相机的直线距离
+    float m_distance;   //装甲到相机的直线距离
     float m_X;            //装甲到相机的水平距离
     float m_Y;            //装甲到相机的垂直距离
     float m_theta;        //atan(Y/X)
@@ -50,9 +49,9 @@ public:
     cv::Point2f m_upper_right;
     cv::Point2f m_bottom_left;
     cv::Point2f m_bottom_right;
-    //相机外参
-    cv::Mat m_R;  //rotation vector 旋转向量
-    cv::Mat m_T;  //translation vector  平移向量
+
+    cv::Mat m_R;
+    cv::Mat m_T;
 
     void calculateRT();
     void judgeHereoInfantry(bool& armor_type);

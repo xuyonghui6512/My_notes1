@@ -18,11 +18,10 @@ public:
     bool Apply(std::vector<Armor>& _armors, cv::Mat& _frame, float _pitch);
     void showImage(std::vector<Armor> &_armors);
     void showResults();
-    bool armor_type = true; /// small_armor=true   big_armor=false
+    bool armor_type = true; /// small_armor=true big_armor=false
 
 private:
     static bool parallel(LightBar bar1, LightBar bar2);
-    static bool hengparallel(LightBar bar1, LightBar bar2);
     void templateMatch(std::vector<Armor>& _armors);    //用模板匹配剔除异常
     void loadTemplate();
     void calculateXY(std::vector<Armor>& _armors);
@@ -34,9 +33,8 @@ private:
 
 private:
     volatile float m_now_pitch;     //当前仰角,注意这个变量随时可以修改,访问需要加入锁,建议速度小于10Hz
-    cv::Mat m_hereo_template;      //用于存放大装甲模板图
-    cv::Mat m_infantry_template;   //用于存放小装甲模板图
-    cv::Mat m_RFID_template;       //用于存放RFID模板图
+    cv::Mat m_hereo_template;
+    cv::Mat m_infantry_template;
     cv::Mat m_frame;
     float m_pitch;
 

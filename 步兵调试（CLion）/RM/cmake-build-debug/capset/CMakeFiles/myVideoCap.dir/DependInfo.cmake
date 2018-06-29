@@ -5,24 +5,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xuduo/lab/RM/capset/v4l2uvc.c" "/home/xuduo/lab/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/v4l2uvc.c.o"
+  "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.c" "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/v4l2uvc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv"
   "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuduo/lab/RM/capset/myVideoCap.cpp" "/home/xuduo/lab/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/myVideoCap.cpp.o"
+  "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/myVideoCap.cpp" "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/CMakeFiles/myVideoCap.dir/myVideoCap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv"
   "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.

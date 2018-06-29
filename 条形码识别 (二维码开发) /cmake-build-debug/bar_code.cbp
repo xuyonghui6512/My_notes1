@@ -163,7 +163,7 @@
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/v4l2uvc.c">
 			<Option target="bar_code"/>
 		</Unit>
-		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /test/run_test.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /test/basler_video_test.cpp">
 			<Option target="run_test"/>
 		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /CMakeLists.txt">

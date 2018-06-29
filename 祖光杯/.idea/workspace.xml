@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="bar_code" targetName="bar_code" />
       <config projectName="bar_code" targetName="run_test" />
+      <config projectName="bar_code" targetName="bar_code" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -37,7 +37,7 @@
       <file leaf-file-name="find_and_pick.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/find_and_pick.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12510">
+            <state relative-caret-position="608">
               <caret line="695" column="40" lean-forward="false" selection-start-line="695" selection-start-column="40" selection-end-line="695" selection-end-column="40" />
               <folding>
                 <element signature="e#39#63#0" expanded="true" />
@@ -66,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_test.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_test.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/run_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="252">
               <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#57#81#0" expanded="true" />
@@ -78,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basler_video_test.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basler_video_test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/basler_video_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3168">
-              <caret line="176" column="100" lean-forward="false" selection-start-line="176" selection-start-column="100" selection-end-line="176" selection-end-column="100" />
+            <state relative-caret-position="2192">
+              <caret line="174" column="45" lean-forward="false" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -125,10 +135,10 @@
         <option value="$PROJECT_DIR$/include/my_bar_code.h" />
         <option value="$PROJECT_DIR$/test/basler_video_test.cpp" />
         <option value="$PROJECT_DIR$/test/formal.cpp" />
-        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/find_and_pick.h" />
         <option value="$PROJECT_DIR$/src/find_and_pick.cpp" />
         <option value="$PROJECT_DIR$/test/run_test.cpp" />
+        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -190,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../祖光杯 (二维码识别开发版本）" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../条形码识别 (二维码开发) " />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -363,11 +373,14 @@
       <workItem from="1528103586844" duration="11000" />
       <workItem from="1528103843761" duration="30000" />
       <workItem from="1528185253711" duration="28000" />
+      <workItem from="1528623798917" duration="241000" />
+      <workItem from="1528624560699" duration="92000" />
+      <workItem from="1528624672146" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223127000" />
+    <option name="totallyTimeSpent" value="223502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
@@ -692,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/image_handle.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -745,17 +751,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/basler_video_test.cpp">
+    <entry file="file://$PROJECT_DIR$/test/run_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="176" column="100" lean-forward="false" selection-start-line="176" selection-start-column="100" selection-end-line="176" selection-end-column="100" />
+        <state relative-caret-position="252">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#57#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/find_and_pick.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12510">
+        <state relative-caret-position="608">
           <caret line="695" column="40" lean-forward="false" selection-start-line="695" selection-start-column="40" selection-end-line="695" selection-end-column="40" />
           <folding>
             <element signature="e#39#63#0" expanded="true" />
@@ -763,13 +779,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/run_test.cpp">
+    <entry file="file://$PROJECT_DIR$/test/basler_video_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#57#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2192">
+          <caret line="174" column="45" lean-forward="false" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

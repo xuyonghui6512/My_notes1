@@ -57,38 +57,38 @@ include test/CMakeFiles/run_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/run_test.dir/flags.make
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o: test/CMakeFiles/run_test.dir/flags.make
-test/CMakeFiles/run_test.dir/run_test.cpp.o: ../test/run_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_test.dir/run_test.cpp.o"
-	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_test.dir/run_test.cpp.o -c /home/xuxuxu/b/My_notes1/祖光杯/test/run_test.cpp
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.o: test/CMakeFiles/run_test.dir/flags.make
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.o: ../test/basler_video_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_test.dir/basler_video_test.cpp.o"
+	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_test.dir/basler_video_test.cpp.o -c /home/xuxuxu/b/My_notes1/祖光杯/test/basler_video_test.cpp
 
-test/CMakeFiles/run_test.dir/run_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_test.dir/run_test.cpp.i"
-	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuxuxu/b/My_notes1/祖光杯/test/run_test.cpp > CMakeFiles/run_test.dir/run_test.cpp.i
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_test.dir/basler_video_test.cpp.i"
+	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuxuxu/b/My_notes1/祖光杯/test/basler_video_test.cpp > CMakeFiles/run_test.dir/basler_video_test.cpp.i
 
-test/CMakeFiles/run_test.dir/run_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_test.dir/run_test.cpp.s"
-	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuxuxu/b/My_notes1/祖光杯/test/run_test.cpp -o CMakeFiles/run_test.dir/run_test.cpp.s
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_test.dir/basler_video_test.cpp.s"
+	cd /home/xuxuxu/b/My_notes1/祖光杯/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuxuxu/b/My_notes1/祖光杯/test/basler_video_test.cpp -o CMakeFiles/run_test.dir/basler_video_test.cpp.s
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.requires:
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.requires:
 
-.PHONY : test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
+.PHONY : test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.requires
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.provides: test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
-	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/run_test.cpp.o.provides.build
-.PHONY : test/CMakeFiles/run_test.dir/run_test.cpp.o.provides
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.provides: test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.requires
+	$(MAKE) -f test/CMakeFiles/run_test.dir/build.make test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.provides.build
+.PHONY : test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.provides
 
-test/CMakeFiles/run_test.dir/run_test.cpp.o.provides.build: test/CMakeFiles/run_test.dir/run_test.cpp.o
+test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.provides.build: test/CMakeFiles/run_test.dir/basler_video_test.cpp.o
 
 
 # Object files for target run_test
 run_test_OBJECTS = \
-"CMakeFiles/run_test.dir/run_test.cpp.o"
+"CMakeFiles/run_test.dir/basler_video_test.cpp.o"
 
 # External object files for target run_test
 run_test_EXTERNAL_OBJECTS =
 
-../bin/run_test: test/CMakeFiles/run_test.dir/run_test.cpp.o
+../bin/run_test: test/CMakeFiles/run_test.dir/basler_video_test.cpp.o
 ../bin/run_test: test/CMakeFiles/run_test.dir/build.make
 ../bin/run_test: ../lib/libbar_code.so
 ../bin/run_test: /usr/local/lib/libopencv_stitching.so.3.2.0
@@ -173,7 +173,7 @@ test/CMakeFiles/run_test.dir/build: ../bin/run_test
 
 .PHONY : test/CMakeFiles/run_test.dir/build
 
-test/CMakeFiles/run_test.dir/requires: test/CMakeFiles/run_test.dir/run_test.cpp.o.requires
+test/CMakeFiles/run_test.dir/requires: test/CMakeFiles/run_test.dir/basler_video_test.cpp.o.requires
 
 .PHONY : test/CMakeFiles/run_test.dir/requires
 

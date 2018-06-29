@@ -9,7 +9,7 @@ int main ( int argc, char** argv )
 {
     clock_t start_time = clock();
     mybar_code::Bar_code a;
-    Mat img=imread("/home/xuxuxu/b/二维码测试图片/10.jpg");
+    Mat img=imread("/home/xuxuxu/b/二维码测试图片/104.jpg");
     Mat img_for_barcode;
     img_for_barcode=img.clone();
     Mat theObject,theObject2;

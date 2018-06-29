@@ -12,7 +12,7 @@ namespace hitcrt{
 
     ArmorDetect::ArmorDetect(){
         cv::FileStorage fs;
-        fs.open("/home/kx/project/RM/camera.yml", cv::FileStorage::READ);
+        fs.open("/home/xuxuxu/步兵调试（CLion）/RM/camera.yml", cv::FileStorage::READ);
         assert(fs.isOpened());
         fs["camera_matrix"] >> Param::KK;
         fs["distortion_coefficients"] >> Param::DISTORT;
@@ -23,26 +23,23 @@ namespace hitcrt{
         cout << "DISTORT = " << Param::DISTORT;
 #endif
     }
-// 载入模板
+
     void ArmorDetect::loadTemplate() {
-        m_hereo_template = imread("/home/kx/project/RM/template/big_template.bmp");
+        m_hereo_template = imread("/home/xuxuxu/步兵调试（CLion）/RM/template/big_template.bmp");
         cvtColor(m_hereo_template, m_hereo_template, CV_RGB2GRAY);
         cv::threshold(m_hereo_template, m_hereo_template, 128, 255, THRESH_OTSU);
-
-        m_infantry_template = imread("/home/kx/project/RM/template/small_template.bmp");
+        m_infantry_template = imread("/home/xuxuxu/步兵调试（CLion）/RM/template/small_template.bmp");
         cvtColor(m_infantry_template, m_infantry_template, CV_RGB2GRAY);
         cv::threshold(m_infantry_template, m_infantry_template, 128, 255, THRESH_OTSU);
-
-        m_RFID_template = imread("/home/kx/project/RM/template/small_template_heng.bmp");
-        cvtColor(m_RFID_template, m_RFID_template, CV_RGB2GRAY);
-        cv::threshold(m_RFID_template, m_RFID_template, 128, 255, THRESH_OTSU);
     }
 
-// 模板匹配
     void ArmorDetect::templateMatch(std::vector<Armor> &_armors) {
+
+
+
 //        for (int i = 0; i < _armors.size(); ++i) {
 
-        for(std::vector<Armor>::iterator it = _armors.begin(); it != _armors.end();)  //迭代器，遍历并选择序列中的对象
+        for(std::vector<Armor>::iterator it = _armors.begin(); it != _armors.end();)
         {
             Armor& armor_tmp = *it;
             std::vector<cv::Point2f> corners;
@@ -51,14 +48,11 @@ namespace hitcrt{
             corners.push_back(armor_tmp.m_bottom_left);
             corners.push_back(armor_tmp.m_bottom_right);
 
-            Rect imgRect  = cv::boundingRect(corners);  //输入点集，得到外接矩形
+            Rect imgRect  = cv::boundingRect(corners);
 
             std::vector<cv::Point2f> dst_pt;
             cv::Mat template_img;
-            if(armor_tmp.m_type == Armor::RFID){
-                template_img = m_RFID_template;
-            }
-            else if(armor_tmp.m_type == Armor::INFANTRY) {
+            if(armor_tmp.m_type == Armor::INFANTRY) {
                 template_img = m_infantry_template;
             }else{
                 template_img = m_hereo_template;
@@ -69,7 +63,6 @@ namespace hitcrt{
             dst_pt.push_back(Point2f(0,template_img.rows));
             dst_pt.push_back(Point2f(template_img.cols, template_img.rows));
 
-            //根据输入和输出点获得图像透视变换的矩阵，这里的输出点是模板图上的点
             cv::Mat transmtx = cv::getPerspectiveTransform(corners, dst_pt);
 
 
@@ -86,18 +79,18 @@ namespace hitcrt{
                 uchar* p1 = img_perspective.ptr<uchar>(j);
                 uchar* p2 = template_img.ptr<uchar>(j);
                 for (int k = 0; k < img_perspective.cols; ++k) {
-                    if(p1[k]*p2[k] + (255-p1[k])*(255-p2[k]) > 0)//检验像素相同的点
+                    if(p1[k]*p2[k] + (255-p1[k])*(255-p2[k]) > 0)
                         ++non_zero_num;
                 }
             }
 
-            float ratio = non_zero_num*1.0 / template_img.cols / template_img.rows;//重复率
+            float ratio = non_zero_num*1.0 / template_img.cols / template_img.rows;
 
 //            cout << "non_zero_num = " << non_zero_num << endl;
 //            cout << "ratio" << ratio << endl;
             if(ratio < 0.80)
             {
-                _armors.erase(it);//忽略目标
+                _armors.erase(it);
             } else{
                 ++it;
             }
@@ -139,33 +132,6 @@ namespace hitcrt{
     bool ArmorDetect::parallel(LightBar bar1, LightBar bar2)
     {
         double product = fabs(bar1.line_6f[0] * bar2.line_6f[1] - bar1.line_6f[1] * bar2.line_6f[0]);
-        if(product > sin(5.0 / 180 * 3.1415926))//若不平行
-            return false;
-        double length1 = bar1.line_6f[4];
-        double length2 = bar2.line_6f[4];
-        if(length1 < length2 * 0.6 || length2 < length1 * 0.6)      //两者大致相等（若不相等）
-            return false;
-        double length = (length1 + length2) / 2;
-        double scale = fabs(log10(length1 / length2));
-        double distance = sqrt(pow(bar1.line_6f[2] - bar2.line_6f[2], 2) + pow(bar1.line_6f[3] - bar2.line_6f[3], 2));
-//        cout << distance << endl;
-//        cout << fabs(bar1.line_6f[2] - bar2.line_6f[2]) << endl;
-//        cout << fabs(bar1.line_6f[3] - bar2.line_6f[3]) << endl;
-        if(fabs(bar1.line_6f[2] - bar2.line_6f[2]) / distance < 0.9) //cos(theta) = 0.5 即两个灯条之间的距离基本上都是由横向确定的
-            return false;
-        if(fabs(bar1.line_6f[3] - bar2.line_6f[3]) / distance > 0.5) // 滤除对角线灯条
-            return false;
-
-        if(distance > 6.0*length || distance < 0.5*length)
-            return false;
-        if(scale > 0.3)
-            return false;
-        return true;
-    }
-
-    bool ArmorDetect::hengparallel(LightBar bar1, LightBar bar2)
-    {
-        double product = fabs(bar1.line_6f[0] * bar2.line_6f[1] - bar1.line_6f[1] * bar2.line_6f[0]);
         if(product > sin(5.0 / 180 * 3.1415926))
             return false;
         double length1 = bar1.line_6f[4];
@@ -178,9 +144,7 @@ namespace hitcrt{
 //        cout << distance << endl;
 //        cout << fabs(bar1.line_6f[2] - bar2.line_6f[2]) << endl;
 //        cout << fabs(bar1.line_6f[3] - bar2.line_6f[3]) << endl;
-        if(fabs(bar1.line_6f[3] - bar2.line_6f[3]) / distance < 0.9) //cos(theta) = 0.5 即两个灯条之间的距离基本上都是由横向确定的
-            return false;
-        if(fabs(bar1.line_6f[2] - bar2.line_6f[2]) / distance > 0.5) // 滤除对角线灯条
+        if(fabs(bar1.line_6f[2] - bar2.line_6f[2]) / distance < 0.9) //cos(theta) = 0.5 即两个灯条之间的距离基本上都是由横向确定的
             return false;
 
         if(distance > 6.0*length || distance < 0.5*length)
@@ -269,7 +233,7 @@ namespace hitcrt{
 
 
     bool ArmorDetect::Apply(std::vector<Armor> &_armors, cv::Mat &_frame, float _pitch) {
-        assert(_pitch < 2);     //注意这里是弧度
+        assert(_pitch < 2);     //注意这里时弧度
 
         m_frame = _frame;
         m_pitch = _pitch;
@@ -280,7 +244,9 @@ namespace hitcrt{
         int width = _frame.cols;
         Mat img_b(height, width, CV_8U, Scalar(0));
         Mat img = _frame.clone();
-        cvtColor(img, img, CV_RGB2GRAY);
+
+       // cvtColor(img, img, CV_RGB2GRAY);
+        cout<<"======="<<1<<endl;
         Moments moment;
         vector<Point> points_led;
         vector<Point2f> points_mask;
@@ -293,7 +259,6 @@ namespace hitcrt{
             for(int j = 0;j < width; j++){
                 if(p_raw[j]>150 && p_raw[j] < 256) {
                     p_mask[j] = 255;
-                    //如果原图某点有一定亮度，把img_b对应点变成白色，并把该点保存到points_mask中
                     if(points_mask.size()<points_mask_size_max){
                         points_mask.push_back(Point2f(j,i));
                     }
@@ -316,12 +281,11 @@ namespace hitcrt{
 //        imshow("mask",mask);
 //        waitKey(1);
 
-        std::vector<LightBar> bars,hengbars;
+        std::vector<LightBar> bars;
 //        cout << "contours_size() = " << contours.size() << endl;
-        for (int i = 0; i < contours.size(); ++i) {     //遍历所有轮廓，找到灯柱轮廓，并将灯柱轮廓内的点保存
+        for (int i = 0; i < contours.size(); ++i) {
 //            gettimeofday(&st,NULL);
-            LightBar bar;      //左右灯柱
-            LightBar hengbar;  //上下灯柱
+            LightBar bar;
             bar.m_contour = contours[i];
 
             bar.m_contourArea = contourArea(contours[i]);
@@ -329,7 +293,7 @@ namespace hitcrt{
 
 
             if(bar.m_contourArea > hitcrt::Param::MAX_LIGHT_BAR_AREA || bar.m_contourArea < hitcrt::Param::MIN_LIGHT_BAR_AREA)
-                continue;  //结束当前循环
+                continue;
             bar.m_rotateRect = minAreaRect(contours[i]);
 
             float length = max(bar.m_rotateRect.size.height, bar.m_rotateRect.size.width);
@@ -337,11 +301,11 @@ namespace hitcrt{
             if (thick > 0.5 * length||thick<0.05*length)///0.3
                 continue;
 
-            ////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
             if(points_mask.size()<points_mask_size_max){
                 bar.m_insidePoints.reserve(points_mask.size());
                 for (int j = 0; j < points_mask.size(); ++j) {
-                    double is_in_contour = pointPolygonTest(contours[i], points_mask[j], false);  //判断点是否在轮廓内
+                    double is_in_contour = pointPolygonTest(contours[i], points_mask[j], false);
                     if (is_in_contour >= 0){
                         bar.m_insidePoints.push_back(points_mask[j]);
                     }
@@ -355,30 +319,9 @@ namespace hitcrt{
 
                 fitLine(bar.m_insidePoints, line_4f_tmp, CV_DIST_L2, 0, 0.01, 0.01);
 
-                if(fabs(line_4f_tmp[0])>0.7*fabs(line_4f_tmp[1]))   //根据拟合直线的方向向量进行判断
-                {
-                    hengbar = bar;
-                    hengbar.line_6f = Vec6f(line_4f_tmp[0], line_4f_tmp[1], line_4f_tmp[2], line_4f_tmp[3], length,0);
-                    float lefter = 10000, righter = -1;
-                    for (int j = 0; j < hengbar.m_insidePoints.size(); ++j) {
-                        if(hengbar.m_insidePoints[j].x < lefter){
-                            lefter = hengbar.m_insidePoints[j].x;
-                            hengbar.m_upper = hengbar.m_insidePoints[j];
-                        }
-                        if(hengbar.m_insidePoints[j].x > righter){
-                            righter = hengbar.m_insidePoints[j].x;
-                            hengbar.m_bottom = hengbar.m_insidePoints[j];
-                        }
 
-                    }
-                }
-                hengbars.push_back(hengbar);
-
-                if (fabs(line_4f_tmp[0]) > 0.5 * fabs(line_4f_tmp[1]))  //斜率  如果不满足此条件 则是左右灯柱
-                {
+                if (fabs(line_4f_tmp[0]) > 0.5 * fabs(line_4f_tmp[1]))//斜率
                     continue;
-                }
-
                 bar.line_6f = Vec6f(line_4f_tmp[0], line_4f_tmp[1], line_4f_tmp[2], line_4f_tmp[3], length,0);
 
                 float upper = 10000, lower = -1;
@@ -401,7 +344,6 @@ namespace hitcrt{
 
 #endif
             }
-
             //////////////////////////////////////////////////////////////////////////////////
             else{
 //                cout << "2222222222222" <<endl;
@@ -437,58 +379,7 @@ namespace hitcrt{
             bars.push_back(bar);
         }
 
-        vector<int> henglabels;
-        std::vector<Armor> _heng_armors;
-        if(hengbars.size() >= 2){
-            partition(hengbars, henglabels,hengparallel);
-            int search_flag[20] = { 0 };
-            for (int i = 0; i < henglabels.size(); i++) {
-                if (search_flag[i])
-                    continue;
-                int sum = 0;
-                int index[2] = {-1};
-                for (int j = 0; j < henglabels.size(); j++) {
-                    if (henglabels[i] == henglabels[j]) {
-                        sum++;
-                        if (sum == 2) {
-                            index[0] = j;
-                        }
-                        if (sum == 3) {
-                            index[1] = j;
-                        }
-//                    index = j;
-//                    search_flag[index] = 1;
-                        search_flag[j] = 1;
-                    }
-                }
-                if (sum == 2) {
-                    Armor armor_tmp;
-                    armor_tmp.m_center_uv = Point2f((bars[i].line_6f[2] + bars[index[0]].line_6f[2]) / 2,
-                                                    (bars[i].line_6f[3] + bars[index[0]].line_6f[3]) / 2);
-                    if (bars[i].line_6f[3] > bars[index[0]].line_6f[3]) {
-                        armor_tmp.m_leftBar = bars[index[0]];
-                        armor_tmp.m_rightBar = bars[i];
-                    } else {
-                        armor_tmp.m_leftBar = bars[i];
-                        armor_tmp.m_rightBar = bars[index[0]];
-                    }
 
-                    armor_tmp.m_upper_left = armor_tmp.m_leftBar.m_upper;
-                    armor_tmp.m_bottom_left = armor_tmp.m_rightBar.m_upper;
-                    armor_tmp.m_upper_right = armor_tmp.m_leftBar.m_bottom;
-                    armor_tmp.m_bottom_right = armor_tmp.m_rightBar.m_bottom;
-//                    armor_tmp.judgeHereoInfantry(armor_type);
-                    armor_tmp.m_type = Armor::INFANTRY;
-//                cout << armor_tmp.m_type << endl;
-                    armor_tmp.calculateRT();
-//                cout << "distance = " << armor_tmp.m_distance << endl;
-                    if (armor_tmp.m_distance < Param::MAX_DISTANCE) {
-                        _heng_armors.push_back(armor_tmp);
-                    }
-
-                }
-            }
-        }
         if(bars.size() < 2)
             return false;
         vector<int> labels;
@@ -497,8 +388,7 @@ namespace hitcrt{
 
         int search_flag[20] = { 0 };
         for (int i = 0; i < labels.size(); i++) {
-            if (search_flag[i])
-                continue;
+            if (search_flag[i])continue;
             int sum = 0;
             int index[2] = {-1};
             for (int j = 0; j < labels.size(); j++) {
@@ -611,19 +501,9 @@ namespace hitcrt{
 //            cout << "sum "<<sum<<endl;
         }
 
-        templateMatch(_heng_armors);
-        templateMatch(_armors);
-        if(_heng_armors.size()>0){
-            for(int k=0;k < _armors.size();k++){
-                for(int p=0; p <_heng_armors.size();p++){
-                    if(sqrt((_armors[k].m_center_uv.x-_heng_armors[p].m_center_uv.x)*(_armors[k].m_center_uv.x-_heng_armors[p].m_center_uv.x)+(_armors[k].m_center_uv.y-_heng_armors[p].m_center_uv.y)*(_armors[k].m_center_uv.y-_heng_armors[p].m_center_uv.y))<5){
-                        cout<<"RFID"<<endl;
-                        _armors.erase(_armors.begin()+k);
-                    }
-                }
-            }
 
-        }
+
+        templateMatch(_armors);
         calculateXY(_armors);
         calculateEjectTheta(_armors);
 

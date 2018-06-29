@@ -14,6 +14,8 @@ namespace mybar_code{
     {
         ImageScanner scanner;
         stringstream ss;//用于记录信息
+        stringstream ss1;//记录数字信息
+        stringstream ss2;//用于记录类型信息
         scanner.set_config(ZBAR_NONE, ZBAR_CFG_ENABLE, 1);
         Mat image = img.clone();
 
@@ -44,6 +46,8 @@ namespace mybar_code{
 //                cout<<"条码："<<endl<<symbol->get_data()<<endl<<endl;
                 ss<<"类型："<<"  "<<symbol->get_type_name()<<endl<<endl;
                 ss<<"条码："<<"  "<<symbol->get_data()<<endl<<endl;
+                ss1<<symbol->get_data();
+                ss2<<symbol->get_type_name();
             }
         }
         for(;symbol != imageZbar.symbol_end();++symbol)
@@ -52,8 +56,12 @@ namespace mybar_code{
 //            cout<<"条码："<<endl<<symbol->get_data()<<endl<<endl;
             ss<<"类型："<<"  "<<symbol->get_type_name()<<endl;
             ss<<"条码："<<"  "<<symbol->get_data()<<endl;
+            ss1<<symbol->get_data();
+            ss2<<symbol->get_type_name();
         }
         _bar_code.code_info=ss.str();
+        _bar_code.code_data=ss1.str();
+        _bar_code.code_type=ss2.str();
         //imshow("Source Image",imageGray);
 //        waitKey();
         imageZbar.set_data(nullptr,0);
@@ -208,6 +216,7 @@ namespace mybar_code{
         cvtColor(src, src_gray, CV_BGR2GRAY);
         blur(src_gray, src_gray, Size(3, 3)); //模糊，去除毛刺
         threshold(src_gray, threshold_output, 100, 255, THRESH_OTSU);
+//        imshow("111",threshold_output);
         //寻找轮廓
         //第一个参数是输入图像 2值化的
         //第二个参数是内存存储器，FindContours找到的轮廓放到内存里面。
@@ -218,7 +227,7 @@ namespace mybar_code{
         //轮廓筛选
         int c = 0, ic = 0, area = 0;
         int parentIdx = -1;
-        Point2f point[3];
+        Point2f point[3],newpoint[3];
         for (int i = 0; i < contours1.size(); i++) {
             //hierarchy[i][2] != -1 表示不是最外面的轮廓
             if (hierarchy[i][2] != -1 && ic == 0) {
@@ -268,8 +277,15 @@ namespace mybar_code{
             oriented_pt.x = (max_x + min_x) / 2;
             oriented_pt.y = (max_y + min_y) / 2;
             QRkey=2*(max_x+max_y-min_x-min_y);
-            imshow("src_all",src_all);
-            waitKey();
+            ///////////////////扩大定位点的范围/////////////////////
+            for (int j = 0; j <3 ; j++) {
+                newpoint[j]=2*point[j]-oriented_pt;
+            }
+            line(src_all, newpoint[0], newpoint[1], Scalar(0, 255, 255), 2);
+            line(src_all, newpoint[1], newpoint[2], Scalar(0, 255, 255), 2);
+            line(src_all, newpoint[0], newpoint[2], Scalar(0, 255, 255), 2);
+            //imshow("src_all",src_all);
+           // waitKey();
             return true;
 
         } else {
@@ -334,9 +350,15 @@ namespace mybar_code{
                 oriented_pt.x = (max_x + min_x) / 2;
                 oriented_pt.y = (max_y + min_y) / 2;
                 QRkey=2*(max_x+max_y-min_x-min_y);
+                for (int j = 0; j <3 ; j++) {
+                    newpoint[j]=2*point[j]-oriented_pt;
+                }
+                line(src_all, newpoint[0], newpoint[1], Scalar(0, 255, 255), 2);
+                line(src_all, newpoint[1], newpoint[2], Scalar(0, 255, 255), 2);
+                line(src_all, newpoint[0], newpoint[2], Scalar(0, 255, 255), 2);
                 cout<<"oritented_pt:("<<oriented_pt.x<<","<<oriented_pt.y<<")"<<endl;
-                imshow("src_all",src_all);
-                waitKey();
+                //imshow("src_all",src_all);
+                //waitKey();
                 return true;
             }
         }
@@ -657,18 +679,36 @@ namespace mybar_code{
         Mat srcImg=inputImg.clone();
         Mat srcGray;
         cvtColor(srcImg,srcGray,CV_RGB2GRAY);
+        /////////////////////////////距离定位点一定距离的像素全部改白//////////////
+        ///////////////////相关代码/////////////////////
 
+        for(int i=0;i<srcGray.rows;i++)
+        {
+            uchar* p=srcGray.ptr<uchar>(i);
+            for(int j=0;j<srcGray.cols;j++)
+            {
+                if(abs(j-oritented_pt.x)>QRkey/3.5)
+                    p[j]=255;
+                if(abs(i-oritented_pt.y)>QRkey/3.5)
+                    p[j]=255;
+            }
+        }
+        //circle(srcGray,oritented_pt,2,Scalar(255,255,255));
+        //imshow("se",srcGray);
+        //waitKey();
+
+        /////////////////////////////////////////////////////////////////////
         blur(srcGray,srcGray,Size(3,3));
         //imshow("srcGray",srcGray);
         Mat threshold_img,close_img;
-        threshold(srcGray,threshold_img,80,255,CV_THRESH_BINARY);
+        threshold(srcGray,threshold_img,20,255,CV_THRESH_BINARY);
         //imshow("二值",threshold_img);
-        waitKey();
+        //waitKey();
         Mat element=getStructuringElement(MORPH_RECT,Size(21,21));//得到自定义核
         erode(threshold_img,threshold_img,element);
-        Mat element1=getStructuringElement(MORPH_RECT,Size(5,5));//得到自定义核
+        Mat element1=getStructuringElement(MORPH_RECT,Size(13,13));//得到自定义核
         dilate(threshold_img,close_img,element1);
-        imshow("222",close_img);
+        //imshow("222",close_img);
 
         std::vector<std::vector<Point> > contours1,contours2;
         std::vector<Vec4i> hierarchy;
@@ -677,7 +717,7 @@ namespace mybar_code{
         {
             if(contours1[i].size()>QRkey) {
                 contours2.push_back(contours1[i]);
-                drawContours(inputImg,contours1,i,Scalar(255,0,0),1);
+                //drawContours(inputImg,contours1,i,Scalar(255,0,0),1);
             }
         }
         cout<<contours2.size()<<endl;
@@ -704,7 +744,7 @@ namespace mybar_code{
         for (int j = 0; j < 4; j++) {
             line(inputImg, rect[j], rect[(j + 1) % 4], Scalar(0, 0, 255), 2, 8);  //绘制最小外接矩形每条边
         }
-        imshow("1",inputImg);
+        //imshow("1",inputImg);
         return true;
     }
 

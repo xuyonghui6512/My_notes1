@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/xuduo/lab/RM/capset/v4l2uvc.c
+/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.c
 stdlib.h
 -
 v4l2uvc.h
-/home/xuduo/lab/RM/capset/v4l2uvc.h
+/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.h
 
-/home/xuduo/lab/RM/capset/v4l2uvc.h
+/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.h
 stdio.h
 -
 string.h

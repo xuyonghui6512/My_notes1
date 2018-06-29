@@ -175,13 +175,18 @@ int main()
 
                 if(isPicture&&(!theObject.empty())) {
                     bool key = mybar_code::CodeDetect::Zbar_It(theObject, a);
-
-                    g_key=key;
                     if (key) {
-                        imshow("the",theObject);
+                        cv::RNG rng(time(0));
+                        putText(theObject, a.code_data, Point(theObject.cols/9,theObject.rows/2+20), FONT_HERSHEY_SIMPLEX,
+                                0.8, Scalar(rng.uniform(150,255),rng.uniform(150,255),rng.uniform(150,255)),2);
+                        putText(theObject, a.code_type, Point(theObject.cols/9,theObject.rows/2-20), FONT_HERSHEY_SIMPLEX,
+                                0.8, Scalar(rng.uniform(150,255),rng.uniform(150,255),rng.uniform(150,255)),2);
+                        imshow("提取的条码及信息",theObject);
                         a.bar_code_show(a);
                         waitKey(0);
                     }
+
+
 
                 }
                 ////////////////////////////////////////////////////////////////////

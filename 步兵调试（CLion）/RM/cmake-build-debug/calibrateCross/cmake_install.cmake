@@ -1,4 +1,4 @@
-# Install script for directory: /home/xuduo/lab/RM/calibrateCross
+# Install script for directory: /home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/calibrateCross
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,6 +12,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
+    cout<<"======="<<1<<endl;
 
 //    hitcrt::ArmorDetect armorDetect;
 //    hitcrt::Predictor predictor;
@@ -59,10 +60,12 @@ int main() {
 //    }
 //////////////////////////////////////////////////////////////////////////////////////
     hitcrt::ArmorDetect armorDetect;
+    cout<<"======="<<1<<endl;
     hitcrt::Predictor predictor;
+
     for (int i = 6; i < 500; ++i) {
         stringstream ss;
-        ss << "/home/kx/project/RM/image/img_" << setw(3)<<  setfill('0') << i << ".jpg";
+        ss << "/home/xuxuxu/步兵调试（CLion）/RM/image/img_" << setw(3)<<  setfill('0') << i << ".jpg";
         string str;
         ss >> str;
         cout << str.c_str() << endl;
@@ -71,8 +74,9 @@ int main() {
         struct timeval st,en;
         gettimeofday(&st,NULL);
 
-        armorDetect.Apply(armors, img_raw, 10*CV_PI/180);
-
+        armorDetect.Apply(armors, img_raw, 3*CV_PI/180);
+        if(armors.size()>0)
+        armorDetect.showImage(armors);
         float min_distance = 100000;
         int min_index = 0;
         for (int j = 0; j < armors.size(); ++j) {

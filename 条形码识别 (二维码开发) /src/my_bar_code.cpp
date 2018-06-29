@@ -5,7 +5,7 @@
 #include "my_bar_code.h"
 
 namespace mybar_code{
-        string Bar_code::get_dealing_date() {
+    string Bar_code::get_dealing_date() {
         time_t rawtime;
         struct tm *ptminfo;
 
@@ -13,10 +13,10 @@ namespace mybar_code{
         ptminfo = localtime(&rawtime);
         stringstream ss;
         ss<<ptminfo->tm_year + 1900<<"-"<<ptminfo->tm_mon + 1<<"-"<<ptminfo->tm_mday<<
-            "  "<<ptminfo->tm_hour<<":"<<ptminfo->tm_min<<":"<<ptminfo->tm_sec;
-            return ss.str();
+          "  "<<ptminfo->tm_hour<<":"<<ptminfo->tm_min<<":"<<ptminfo->tm_sec;
+        return ss.str();
     }
-        string Bar_code::dealing_date=Bar_code::get_dealing_date();
+    string Bar_code::dealing_date=Bar_code::get_dealing_date();
 
 
 

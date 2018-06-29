@@ -8,14 +8,14 @@ using namespace std;
 using namespace cv;
 
 namespace hitcrt{
-    float Armor::hereo_width = 230;      //大装甲宽度
-    float Armor::hereo_height = 55;      //大装甲高度
-    float Armor::infantry_width = 135;   //小装甲宽度
-    float Armor::infantry_height = 55;   //小装甲高度
+    float Armor::hereo_width = 230;
+    float Armor::hereo_height = 55;
+    float Armor::infantry_width = 135;
+    float Armor::infantry_height = 55;
 
     void Armor::calculateRT() {
 
-        vector<Point3f> objectPoints;  //Array of object points in the object coordinate space
+        vector<Point3f> objectPoints;
 
         if (m_type == INFANTRY){
             objectPoints.push_back(Point3f(0,0,0));
@@ -29,15 +29,15 @@ namespace hitcrt{
             objectPoints.push_back(Point3f(Armor::hereo_width,Armor::hereo_height,0));
         }
 
-        vector<Point2f> imagePoints;  //Array of corresponding image points
+        vector<Point2f> imagePoints;
         imagePoints.push_back(m_upper_left);
         imagePoints.push_back(m_upper_right);
         imagePoints.push_back(m_bottom_left);
         imagePoints.push_back(m_bottom_right);
 
-        cv::solvePnP(objectPoints, imagePoints, Param::KK, Param::DISTORT, m_R, m_T);  //得到相机外参
+        cv::solvePnP(objectPoints, imagePoints, Param::KK, Param::DISTORT, m_R, m_T);
 //        cout << "m_T " << m_T<< endl;
-        m_distance = cv::norm(m_T);  //通过平移向量计算装甲到相机的直线距离
+        m_distance = cv::norm(m_T);
     }
 
     void Armor::judgeHereoInfantry(bool& armor_type) {  //一个非常粗糙的版本

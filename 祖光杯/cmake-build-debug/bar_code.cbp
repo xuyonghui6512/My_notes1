@@ -163,7 +163,7 @@
 		<Unit filename="/home/xuxuxu/b/My_notes1/祖光杯/src/v4l2uvc.c">
 			<Option target="bar_code"/>
 		</Unit>
-		<Unit filename="/home/xuxuxu/b/My_notes1/祖光杯/test/run_test.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/祖光杯/test/basler_video_test.cpp">
 			<Option target="run_test"/>
 		</Unit>
 		<Unit filename="/home/xuxuxu/b/My_notes1/祖光杯/CMakeLists.txt">

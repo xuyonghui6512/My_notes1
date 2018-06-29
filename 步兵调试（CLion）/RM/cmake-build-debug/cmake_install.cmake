@@ -1,4 +1,4 @@
-# Install script for directory: /home/xuduo/lab/RM
+# Install script for directory: /home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xuduo/lab/RM/cmake-build-debug/capset/cmake_install.cmake")
-  include("/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/cmake_install.cmake")
-  include("/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/cmake_install.cmake")
-  include("/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/cmake_install.cmake")
+  include("/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/cmake_install.cmake")
+  include("/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/cmake_install.cmake")
+  include("/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/cmake_install.cmake")
+  include("/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xuduo/lab/RM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -5,565 +5,565 @@
 		<Option title="RM"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\capset\;CMake Files\ArmorDetect\;CMake Files\calibrateCross\;CMake Files\testSerialSend\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\capset\;CMake Files\ArmorDetect\;CMake Files\calibrateCross\;CMake Files\testSerialSend\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="formal">
-				<Option output="/home/xuduo/lab/RM/bin/formal" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/formal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="formal/fast">
-				<Option output="/home/xuduo/lab/RM/bin/formal" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/formal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filewrite">
-				<Option output="/home/xuduo/lab/RM/bin/filewrite" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/filewrite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 filewrite"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 filewrite"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filewrite/fast">
-				<Option output="/home/xuduo/lab/RM/bin/filewrite" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/filewrite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 filewrite/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 filewrite/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calibration">
-				<Option output="/home/xuduo/lab/RM/bin/calibration" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/calibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 calibration"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 calibration"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calibration/fast">
-				<Option output="/home/xuduo/lab/RM/bin/calibration" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/calibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 calibration/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 calibration/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RM">
-				<Option output="/home/xuduo/lab/RM/bin/RM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RM/fast">
-				<Option output="/home/xuduo/lab/RM/bin/RM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="capset">
-				<Option output="/home/xuduo/lab/RM/bin/capset" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/capset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 capset"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 capset"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="capset/fast">
-				<Option output="/home/xuduo/lab/RM/bin/capset" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/capset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 capset/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 capset/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="myVideoCap">
-				<Option output="/home/xuduo/lab/RM/lib/libmyVideoCap.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug/capset"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/lib/libmyVideoCap.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 myVideoCap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 myVideoCap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="myVideoCap/fast">
-				<Option output="/home/xuduo/lab/RM/lib/libmyVideoCap.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug/capset"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/lib/libmyVideoCap.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 myVideoCap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 myVideoCap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/capset/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ArmorDetect">
-				<Option output="/home/xuduo/lab/RM/lib/libArmorDetect.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/lib/libArmorDetect.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 ArmorDetect"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 ArmorDetect"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ArmorDetect/fast">
-				<Option output="/home/xuduo/lab/RM/lib/libArmorDetect.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/lib/libArmorDetect.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 ArmorDetect/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 ArmorDetect/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/ArmorDetect/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calibrateCross">
-				<Option output="/home/xuduo/lab/RM/bin/calibrateCross" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/calibrateCross" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 calibrateCross"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 calibrateCross"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calibrateCross/fast">
-				<Option output="/home/xuduo/lab/RM/bin/calibrateCross" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/calibrateCross" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 calibrateCross/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 calibrateCross/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/calibrateCross/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testSerialSend">
-				<Option output="/home/xuduo/lab/RM/bin/testSerialSend" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/testSerialSend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 testSerialSend"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 testSerialSend"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testSerialSend/fast">
-				<Option output="/home/xuduo/lab/RM/bin/testSerialSend" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xuduo/lab/RM/bin"/>
+				<Option output="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin/testSerialSend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 testSerialSend/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuduo/lab/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 testSerialSend/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/cmake-build-debug/testSerialSend/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Armor.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Armor.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Armor.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Armor.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/ArmorDetect.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/ArmorDetect.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/ArmorDetect.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/ArmorDetect.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Param.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Param.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Param.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Param.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Predictor.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Predictor.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/Predictor.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/Predictor.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/serialapp.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/serialapp.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/serialapp.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/serialapp.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/serialbase.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/serialbase.cpp">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/serialbase.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/serialbase.h">
 			<Option target="ArmorDetect"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/FileWrite/filewrite.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/FileWrite/filewrite.cpp">
 			<Option target="filewrite"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/calibrateCross/calibrateCross.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/calibrateCross/calibrateCross.cpp">
 			<Option target="calibrateCross"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/calibration/calibration.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/calibration/calibration.cpp">
 			<Option target="calibration"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/capset.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/capset.cpp">
 			<Option target="capset"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/myVideoCap.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/myVideoCap.cpp">
 			<Option target="myVideoCap"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/myVideoCap.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/myVideoCap.h">
 			<Option target="myVideoCap"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/v4l2uvc.c">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.c">
 			<Option target="myVideoCap"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/v4l2uvc.h">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/v4l2uvc.h">
 			<Option target="myVideoCap"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/formal.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/formal.cpp">
 			<Option target="formal"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/main.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/main.cpp">
 			<Option target="RM"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/testSerialSend/testSerialSend.cpp">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/testSerialSend/testSerialSend.cpp">
 			<Option target="testSerialSend"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/CMakeLists.txt">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/capset/CMakeLists.txt">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/capset/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\capset\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/ArmorDetect/CMakeLists.txt">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/ArmorDetect/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ArmorDetect\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/calibrateCross/CMakeLists.txt">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/calibrateCross/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\calibrateCross\"/>
 		</Unit>
-		<Unit filename="/home/xuduo/lab/RM/testSerialSend/CMakeLists.txt">
+		<Unit filename="/home/xuxuxu/b/My_notes1/步兵调试（CLion）/RM/testSerialSend/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\testSerialSend\"/>
 		</Unit>
 	</Project>

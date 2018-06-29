@@ -20,12 +20,12 @@ public:
     static float MIN_ROBOT_PITCH;   //机器人最小仰角
     static float MAX_LIGHT_BAR_AREA;    //灯柱最大像素数目
     static float MIN_LIGHT_BAR_AREA;    //灯柱最小像素数目
-    static cv::Mat KK;               //内参矩阵
-    static cv::Mat DISTORT;          //畸变参数
+    static cv::Mat KK;
+    static cv::Mat DISTORT;
     static cv::Mat MAPX;
     static cv::Mat MAPY;
     static float MAX_DISTANCE;
-    static float FOCAL_LENGTH;   //焦距8mm镜头
+    static float FOCAL_LENGTH;   //8mm镜头
     static float DXDY;
     static float OFFSET_X;  //相机原点相对于云台坐标系的X坐标
     static float OFFSET_Y;  //相机原点相对于云台坐标系的Y坐标
