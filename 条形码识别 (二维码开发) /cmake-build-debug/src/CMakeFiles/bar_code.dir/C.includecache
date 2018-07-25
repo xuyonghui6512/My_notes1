@@ -26,9 +26,9 @@ sys/select.h
 linux/videodev2.h
 -
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/v4l2uvc.c
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/v4l2uvc.c
 stdlib.h
 -
 v4l2uvc.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/v4l2uvc.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/v4l2uvc.h
 

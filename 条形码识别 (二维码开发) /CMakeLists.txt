@@ -43,7 +43,7 @@ set( NEEDED_LIBS                              ####src's CMakeLists.txt need it
         -lpthread
         /usr/lib/x86_64-linux-gnu/libboost_system.so
         /usr/lib/x86_64-linux-gnu/libboost_thread.so
-	/opt/pylon5/lib64/libbxapi.so
+	    /opt/pylon5/lib64/libbxapi.so
         /opt/pylon5/lib64/libbxapi-5.0.11.so
         /opt/pylon5/lib64/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so
         /opt/pylon5/lib64/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so

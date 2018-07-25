@@ -1,0 +1,25 @@
+1.解壓縮pylon-5.0.11.10914-x86_64.tar.gz，按照INSTALL的說明進行安裝
+2.MTU需要設置爲9000.
+方法1： sudo gedit /etc/network/interfaces   
+	增加一行 mtu=9000
+	保存並且重啓網絡 /etc/init.d/networking restart
+	可能此命令不能生效 報錯stop: Job failed while stopping
+			      start: Job is already running: networking
+	嘗試 sudo ifdown eth0
+	     sudo ifup eth0  手動關閉和打開網卡 eth0爲網卡名
+方法2：	sudo gedit /etc/network/if-up.d/setmtu
+        寫入：
+	#!/bin/sh
+	ifconfig "$IFACE" mtu 9000                其中"$IFACE"是網卡名  比如eth0
+	保存，然後給這個腳本增加可執行權限
+	sudo chmod a+x /etc/network/if-up.d/setmtu
+	
+	重啓網絡
+3. 嘗試用Basler pylon Viewer打開相機（具體步驟見INSTALL）
+   （1）如果找不到設備，看README裏的“* Problem: The IP Configurator can't see my camera. I'm not able to 
+   reconfigure the camera to make it visible again.” 按要求配置
+   （2）如果有丟幀現象，按照INSTALL裏的“Maximum UDP Socket Buffer Size” 進行配置
+	出現其他問題，也請認真閱讀INSTALL和README
+
+4. 在程序裏結合OpenCV使用工業相機，參考例程TestBasler
+

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /test/basler_video_test.cpp" "/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/run_test.dir/basler_video_test.cpp.o"
+  "/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /test/run_test.cpp" "/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/run_test.dir/run_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/bar_code.dir/DependInfo.cmake"
+  "/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/bar_code.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

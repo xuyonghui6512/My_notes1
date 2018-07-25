@@ -1,0 +1,6 @@
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/CMakeFiles/TestBasler.dir
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/Camera_pylon/CMakeFiles/rebuild_cache.dir
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/Camera_pylon/CMakeFiles/edit_cache.dir
+/home/base2/CLionProjects/TestBasler/cmake-build-debug/Camera_pylon/CMakeFiles/Camera_pylon.dir

@@ -112,41 +112,41 @@ sys/select.h
 linux/videodev2.h
 -
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/find_and_pick.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/find_and_pick.cpp
 my_bar_code.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.h
 find_and_pick.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/find_and_pick.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/find_and_pick.h
 opencv2/opencv.hpp
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/opencv2/opencv.hpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/opencv2/opencv.hpp
 image_handle.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/image_handle.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/image_handle.h
 ctime
 -
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/image_handle.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/image_handle.cpp
 image_handle.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/image_handle.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/image_handle.h
 opencv2/opencv.hpp
 -
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/myVideoCap.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/myVideoCap.cpp
 myVideoCap.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/myVideoCap.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/myVideoCap.h
 iostream
 -
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.cpp
 my_bar_code.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/my_bar_code.h
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/serialapp.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/serialapp.cpp
 serialapp.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/serialapp.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/serialapp.h
 
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/serialbase.cpp
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/serialbase.cpp
 serialbase.h
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /src/serialbase.h
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /src/serialbase.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
@@ -1368,19 +1368,43 @@ opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-/usr/local/include/opencv2/xfeatures2d.hpp
-opencv2/features2d.hpp
-/usr/local/include/opencv2/opencv2/features2d.hpp
-opencv2/xfeatures2d/nonfree.hpp
-/usr/local/include/opencv2/opencv2/xfeatures2d/nonfree.hpp
+/usr/local/include/opencv2/viz.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+opencv2/viz/vizcore.hpp
+-
 
-/usr/local/include/opencv2/xfeatures2d/cuda.hpp
-opencv2/core/cuda.hpp
-/usr/local/include/opencv2/xfeatures2d/opencv2/core/cuda.hpp
+/usr/local/include/opencv2/viz/types.hpp
+string
+-
+opencv2/core.hpp
+-
+opencv2/core/affine.hpp
+-
 
-/usr/local/include/opencv2/xfeatures2d/nonfree.hpp
-opencv2/features2d.hpp
-/usr/local/include/opencv2/xfeatures2d/opencv2/features2d.hpp
+/usr/local/include/opencv2/viz/viz3d.hpp
+opencv2/core.hpp
+-
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+
+/usr/local/include/opencv2/viz/vizcore.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+
+/usr/local/include/opencv2/viz/widgets.hpp
+opencv2/viz/types.hpp
+-
 
 /usr/local/include/zbar.h
 zbar/Exception.h

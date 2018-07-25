@@ -1,0 +1,5 @@
+/home/base2/下载/clion-2017.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/base2/CLionProjects/TestBasler
+-- Boost version: 1.58.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/base2/CLionProjects/TestBasler/cmake-build-debug

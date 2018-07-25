@@ -1,5 +1,40 @@
-/home/xuxuxu/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/xuxuxu/b/My_notes1/条形码识别 (尝试改进版本）"
--- Boost version: 1.58.0
--- Configuring done
--- Generating done
--- Build files have been written to: /home/xuxuxu/b/My_notes1/条形码识别 (尝试改进版本）/cmake-build-debug
+/home/xuxuxu/clion-2018.1.5/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）"
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local (found suitable version "3.4.1", minimum required is "3.1") 
+CMake Error at /home/xuxuxu/clion-2018.1.5/bin/cmake/share/cmake-3.10/Modules/FindBoost.cmake:1928 (message):
+  Unable to find the requested Boost libraries.
+
+  Unable to find the Boost header files.  Please set BOOST_ROOT to the root
+  directory containing Boost or BOOST_INCLUDEDIR to the directory containing
+  Boost's headers.
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (find_package)
+
+
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+Boost_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/src
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/src
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/src
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/test
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/test
+   used as include directory in directory /home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/test
+
+-- Configuring incomplete, errors occurred!
+See also "/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (尝试改进版本）/cmake-build-debug/CMakeFiles/CMakeOutput.log".

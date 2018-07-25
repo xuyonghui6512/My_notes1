@@ -1,8 +1,8 @@
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/bar_code.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/edit_cache.dir
-/home/xuxuxu/b/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/run_test.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/src/CMakeFiles/bar_code.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/xuxuxu/_myGitProgram/My_notes1/条形码识别 (二维码开发) /cmake-build-debug/test/CMakeFiles/run_test.dir

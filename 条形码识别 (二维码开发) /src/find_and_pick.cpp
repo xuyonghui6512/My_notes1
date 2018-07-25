@@ -382,6 +382,7 @@ namespace mybar_code{
         blur(gradientA, blurA_img, Size(9, 9));//模糊
         //////A处理完毕
         ///////对B处理///
+        imshow("1",blurA_img);
         cvtColor(srcImgB, srcGrayB, CV_RGB2GRAY);
 
         Mat gradB_x, gradB_y;
@@ -445,7 +446,7 @@ namespace mybar_code{
         erode(close_img, close_img, element);
         Mat element1 = getStructuringElement(MORPH_RECT, Size(33, 33));//得到自定义核
         dilate(close_img, close_img, element1);
-//       imshow("close_img2", close_img);
+        //imshow("close_img2", close_img);
         std::vector<std::vector<Point> > contours;
         std::vector<Vec4i> hierarchy;
         findContours(close_img, contours, hierarchy, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);//得到轮廓
@@ -860,8 +861,4 @@ namespace mybar_code{
 
     }
 }
-
-
-
-
 
